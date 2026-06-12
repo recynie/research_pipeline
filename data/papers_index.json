@@ -2058,9 +2058,9 @@
     "pdf_url": "https://arxiv.org/pdf/2606.12871.pdf",
     "abs_url": "https://arxiv.org/abs/2606.12871",
     "topic": "llm_agent_science",
-    "interesting": false,
-    "has_summary": false,
-    "has_podcast": false
+    "interesting": true,
+    "has_summary": true,
+    "has_podcast": true
   },
   "2606.12852": {
     "arxiv_id": "2606.12852",
