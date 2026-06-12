@@ -4,7 +4,7 @@ title: "Favorites"
 permalink: /favorites/
 ---
 
-# 📌 Favorite Papers
+# 📌 Archived Papers
 
 Papers you've archived. Browse by topic or revisit anytime.
 

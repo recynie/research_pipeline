@@ -135,10 +135,10 @@ def generate_index_md(index):
 
     content = f"""---
 layout: default
-title: "Dexterous Grasp Daily"
+title: "AI Research Daily"
 ---
 
-# Dexterous Grasp — Daily Paper Digest
+# AI Research — Daily Paper Digest
 
 {intro}
 """

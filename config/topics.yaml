@@ -18,12 +18,86 @@
 # =============================================================================
 
 topics:
-  - name: "dexterous_grasp"
-    display_name: "Dexterous Grasp"
-    search_query: "grasp"
-    max_results: 20
-    abstract_contains:
-      - "grasp"
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  Auto Scientific Research — Agent-driven Scientific Discovery          ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "auto_scientific_discovery"
+    display_name: "Auto Scientific Research"
+    search_query: "cat:cs.AI AND (\"autonomous scientific discovery\" OR \"AI scientist\" OR \"scientific discovery agent\" OR EurekAgent OR \"automated research\" OR \"self-driving lab\")"
+    max_results: 30
+    abstract_contains: []
     any_keyword:
-      - "dexterous"
-      - "dex"
+      - "scientific discovery"
+      - "AI scientist"
+      - "autonomous research"
+      - "self-driving"
+
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  Self-Evolving / Self-Improving Agents                                 ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "self_evolving_agent"
+    display_name: "Self-Evolving Agents"
+    search_query: "cat:cs.AI AND (\"self-evolving\" OR \"self-improving\" OR \"self-evolution\") AND agent"
+    max_results: 25
+    abstract_contains: []
+    any_keyword:
+      - "self-evolv"
+      - "self-improv"
+      - "self-evolution"
+      - "agent"
+
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  LLM Agent for Scientific Applications                                 ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "llm_agent_science"
+    display_name: "LLM Agents for Science"
+    search_query: "cat:cs.AI AND (agent OR agentic) AND (science OR scientific OR research) AND (LLM OR \"language model\")"
+    max_results: 30
+    abstract_contains: []
+    any_keyword:
+      - "agent"
+      - "agentic"
+      - "scientific"
+      - "research"
+      - "science"
+
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  AI for Protein / Molecule Design & Optimization                       ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "ai_for_molecular_design"
+    display_name: "AI for Molecular & Protein Design"
+    search_query: "cat:cs.AI AND (protein OR molecule) AND (agent OR \"language model\") AND (design OR optimization OR generation)"
+    max_results: 30
+    abstract_contains: []
+    any_keyword:
+      - "protein"
+      - "molecule"
+      - "molecular"
+      - "drug"
+
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  Knowledge Evolution / Code as Knowledge                               ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "knowledge_evolution"
+    display_name: "Knowledge Evolution & Code-as-Knowledge"
+    search_query: "cat:cs.AI AND (\"knowledge evolution\" OR \"knowledge base\" OR \"code knowledge\" OR \"skill library\" OR \"knowledge accumulation\") AND (agent OR evolving OR self-improving)"
+    max_results: 20
+    abstract_contains: []
+    any_keyword:
+      - "knowledge evolution"
+      - "knowledge base"
+      - "skill"
+      - "code"
+
+  # ╔══════════════════════════════════════════════════════════════════════════╗
+  # ║  Molecular Graph Representation Learning                                ║
+  # ╚══════════════════════════════════════════════════════════════════════════╝
+  - name: "molecular_graph_learning"
+    display_name: "Molecular Graph & Representation Learning"
+    search_query: "cat:cs.LG AND (\"molecular graph\" OR \"molecule representation\" OR \"graph neural\" molecule) AND (representation OR learning)"
+    max_results: 20
+    abstract_contains: []
+    any_keyword:
+      - "molecular"
+      - "molecule"
+      - "graph"

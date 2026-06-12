@@ -10,25 +10,64 @@ Edit `config/topics.yaml` to control which papers the pipeline discovers. Add yo
 
 ```yaml
 topics:
-  - name: "dexterous_grasp"
-    display_name: "Dexterous Grasp"
-    search_query: "grasp"
-    max_results: 20
-    abstract_contains:
-      - "grasp"
-    any_keyword:
-      - "dexterous"
-      - "dex"
-
-  - name: "robot_learning"
-    display_name: "Robot Learning"
-    search_query: "cat:cs.RO robot learning"
-    max_results: 15
+  - name: "auto_scientific_discovery"
+    display_name: "Auto Scientific Research"
+    search_query: |
+      cat:cs.AI AND ("autonomous scientific discovery" OR "AI scientist" \
+        OR "scientific discovery agent" OR "automated research")
+    max_results: 30
     abstract_contains: []
     any_keyword:
-      - "reinforcement learning"
-      - "imitation learning"
-      - "policy"
+      - "scientific discovery"
+      - "AI scientist"
+      - "autonomous research"
+
+  - name: "self_evolving_agent"
+    display_name: "Self-Evolving Agents"
+    search_query: |
+      cat:cs.AI AND ("self-evolving" OR "self-improving" \
+        OR "self-evolution") AND agent
+    max_results: 25
+    abstract_contains: []
+    any_keyword:
+      - "self-evolv"
+      - "self-improv"
+      - "self-evolution"
+
+  - name: "llm_agent_science"
+    display_name: "LLM Agents for Science"
+    search_query: |
+      cat:cs.AI AND (agent OR agentic) AND (science OR scientific \
+        OR research) AND (LLM OR "language model")
+    max_results: 30
+    abstract_contains: []
+    any_keyword:
+      - "agent"
+      - "scientific"
+      - "research"
+
+  - name: "ai_for_molecular_design"
+    display_name: "AI for Molecular & Protein Design"
+    search_query: |
+      cat:cs.AI AND (protein OR molecule) AND (agent OR "language model") \
+        AND (design OR optimization OR generation)
+    max_results: 30
+    abstract_contains: []
+    any_keyword:
+      - "protein"
+      - "molecule"
+      - "molecular"
+
+  - name: "knowledge_evolution"
+    display_name: "Knowledge Evolution & Code-as-Knowledge"
+    search_query: |
+      cat:cs.AI AND ("knowledge evolution" OR "knowledge base" \
+        OR "skill library") AND (agent OR evolving)
+    max_results: 20
+    abstract_contains: []
+    any_keyword:
+      - "knowledge"
+      - "skill"
 ```
 
 **Configuration fields per topic:**
