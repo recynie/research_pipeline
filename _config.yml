@@ -1,8 +1,10 @@
+# NOTE: This file is auto-synced from config/settings.yaml.
+# Edit config/settings.yaml → the pipeline will update this file automatically.
+
 title: "AI Research Daily"
 description: "Daily arXiv paper summaries and Chinese podcasts — AI Agents, Auto Scientific Research, and AI for Science"
 url: "https://recynie.github.io"
 baseurl: "/research_pipeline"
-
 markdown: kramdown
 
 collections:
