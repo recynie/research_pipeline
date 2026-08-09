@@ -5,26 +5,16 @@ title: "AI Research Daily"
 
 # AI Research — Daily Paper Digest
 
-**2026-08-08** — 63 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
+**2026-08-09** — 64 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
 
 
-## [Scaling Scientific Discovery Environments for Turn-Level Agentic RL]({{ site.baseurl }}/papers/2607.28990/)
+## [Nonlinear Laplacians Improve Signed-Directed Graph Learning]({{ site.baseurl }}/papers/2608.00836/)
 
-**2026-07-31** · Yucheng Xu et al. 
+**2026-08-01** · Ali Parviz et al. 
 
-Large language model agents have shown promising capabilities in data-driven scientific discovery tasks, where an agent interacts with an execution environment and produces a statistical claim. Long-horizon scientific analysis remains constrained by the lack of process supervised environments over r...
+While signed-directed graphs have been studied using linear Laplacians in the design of graph neural networks, relatively little research has focused on developing non-linear Laplacian operators for such networks. We introduce a non-linear Laplacian operator specific to signed and directed networks ...
 
-[Read more →]({{ site.baseurl }}/papers/2607.28990/)
-
----
-
-## [CrystalMem: Elastic Memory for Self-Evolving LLM Agents via Knowledge Crystallization]({{ site.baseurl }}/papers/2608.00303/)
-
-**2026-07-31** · Beining Wu et al. 
-
-Memory for self-evolving large language model (LLM) agents is often provisioned as if its byte budget only grows. Cloud platforms, however, adjust quotas with load and cost, and we show that capability does not follow the budget back up: after a squeeze-and-recover cycle, the agent settles below its...
-
-[Read more →]({{ site.baseurl }}/papers/2608.00303/)
+[Read more →]({{ site.baseurl }}/papers/2608.00836/)
 
 ---
 
@@ -38,6 +28,16 @@ Text-to-molecule generation is typically formulated as a one-shot sequence gener
 
 ---
 
+## [AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?]({{ site.baseurl }}/papers/2608.00155/)
+
+**2026-07-31** · Dong Yan et al. 
+
+Large language model (LLM) agents can self-evolve by continually improving from their own accumulated experience. However, existing studies predominantly adopt independent evaluation. Consequently, the behavior of self-evolving agents in realistic streaming settings, where agents adapt to diverse an...
+
+[Read more →]({{ site.baseurl }}/papers/2608.00155/)
+
+---
+
 ## [RecHarness: A Bandit-Routed Agentic Harness for Self-Evolving Recommender Systems]({{ site.baseurl }}/papers/2607.29241/)
 
 **2026-07-31** · Haoran Ling et al. 
@@ -48,13 +48,13 @@ Optimizing modern recommender models still depends heavily on engineers manually
 
 ---
 
-## [Rethinking Self-Evolving Agent Skills: Feedback Dynamics over Multiple Rounds]({{ site.baseurl }}/papers/2608.02636/)
+## [Scaling Scientific Discovery Environments for Turn-Level Agentic RL]({{ site.baseurl }}/papers/2607.28990/)
 
-**2026-07-31** · Yuxuan Liu et al. 
+**2026-07-31** · Yucheng Xu et al. 
 
-Self-evolving skill systems promise to improve agents by turning execution feedback into persistent skill updates without changing the underlying model. Yet it remains unclear when further evolution helps, how successful and failed trajectories shape revision, and whether extra test-time computation...
+Large language model agents have shown promising capabilities in data-driven scientific discovery tasks, where an agent interacts with an execution environment and produces a statistical claim. Long-horizon scientific analysis remains constrained by the lack of process supervised environments over r...
 
-[Read more →]({{ site.baseurl }}/papers/2608.02636/)
+[Read more →]({{ site.baseurl }}/papers/2607.28990/)
 
 ---
 
@@ -68,16 +68,6 @@ Self-play agents can generate training problems without questions from target be
 
 ---
 
-## [AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks?]({{ site.baseurl }}/papers/2608.00155/)
-
-**2026-07-31** · Dong Yan et al. 
-
-Large language model (LLM) agents can self-evolve by continually improving from their own accumulated experience. However, existing studies predominantly adopt independent evaluation. Consequently, the behavior of self-evolving agents in realistic streaming settings, where agents adapt to diverse an...
-
-[Read more →]({{ site.baseurl }}/papers/2608.00155/)
-
----
-
 ## [Ordered-to-disordered transfer learning with graph neural networks for formation-energy and HOMO-LUMO gap prediction in high-entropy perovskite oxides]({{ site.baseurl }}/papers/2607.29510/)
 
 **2026-07-31** · Panupol Untarabut et al. 
@@ -88,6 +78,16 @@ High-entropy perovskite oxides (HEPOs) represent a chemically complex class of m
 
 ---
 
+## [Rethinking Self-Evolving Agent Skills: Feedback Dynamics over Multiple Rounds]({{ site.baseurl }}/papers/2608.02636/)
+
+**2026-07-31** · Yuxuan Liu et al. 
+
+Self-evolving skill systems promise to improve agents by turning execution feedback into persistent skill updates without changing the underlying model. Yet it remains unclear when further evolution helps, how successful and failed trajectories shape revision, and whether extra test-time computation...
+
+[Read more →]({{ site.baseurl }}/papers/2608.02636/)
+
+---
+
 ## [Cross-Resolution Semantic Learning for Graph Domain Adaptation]({{ site.baseurl }}/papers/2607.29365/)
 
 **2026-07-31** · Yingxu Wang et al. 
@@ -95,6 +95,16 @@ High-entropy perovskite oxides (HEPOs) represent a chemically complex class of m
 Graph Domain Adaptation (GDA) transfers predictive knowledge from labeled source graphs to unlabeled target graphs under distribution shift. Existing methods align representations or regularize graph structures, but do not explicitly model how class-discriminative knowledge learned at different sour...
 
 [Read more →]({{ site.baseurl }}/papers/2607.29365/)
+
+---
+
+## [CrystalMem: Elastic Memory for Self-Evolving LLM Agents via Knowledge Crystallization]({{ site.baseurl }}/papers/2608.00303/)
+
+**2026-07-31** · Beining Wu et al. 
+
+Memory for self-evolving large language model (LLM) agents is often provisioned as if its byte budget only grows. Cloud platforms, however, adjust quotas with load and cost, and we show that capability does not follow the budget back up: after a squeeze-and-recover cycle, the agent settles below its...
+
+[Read more →]({{ site.baseurl }}/papers/2608.00303/)
 
 ---
 
@@ -238,16 +248,6 @@ Agentic research systems are emerging as a new paradigm for coordinating scienti
 
 ---
 
-## [Evolutionary Intelligence for Scientific Discovery: From Evolutionary Computation to Cumulative Discovery Systems]({{ site.baseurl }}/papers/2607.09025/)
-
-**2026-07-10** · Chao Wang et al. 
-
-Artificial intelligence (AI) is shifting scientific discovery from task-specific workflows towards autonomous systems that organize exploration with experimental and human feedback in open-ended candidate spaces. Evolutionary computation (EC) provides a computational basis for feedback-driven discov...
-
-[Read more →]({{ site.baseurl }}/papers/2607.09025/)
-
----
-
 ## [Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents]({{ site.baseurl }}/papers/2607.09195/)
 
 **2026-07-10** · Izumi Takahara et al. 
@@ -258,13 +258,13 @@ Large language model (LLM) agents are increasingly expected to play a central ro
 
 ---
 
-## [DrugGen 2: A disease-aware language model for enhancing drug discovery]({{ site.baseurl }}/papers/2607.08404/)
+## [Evolutionary Intelligence for Scientific Discovery: From Evolutionary Computation to Cumulative Discovery Systems]({{ site.baseurl }}/papers/2607.09025/)
 
-**2026-07-09** · Ali Motahharynia et al. 
+**2026-07-10** · Chao Wang et al. 
 
-Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a nove...
+Artificial intelligence (AI) is shifting scientific discovery from task-specific workflows towards autonomous systems that organize exploration with experimental and human feedback in open-ended candidate spaces. Evolutionary computation (EC) provides a computational basis for feedback-driven discov...
 
-[Read more →]({{ site.baseurl }}/papers/2607.08404/)
+[Read more →]({{ site.baseurl }}/papers/2607.09025/)
 
 ---
 
@@ -278,6 +278,16 @@ The push toward large language models for biology (BioLM) has created a need for
 
 ---
 
+## [DrugGen 2: A disease-aware language model for enhancing drug discovery]({{ site.baseurl }}/papers/2607.08404/)
+
+**2026-07-09** · Ali Motahharynia et al. 
+
+Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a nove...
+
+[Read more →]({{ site.baseurl }}/papers/2607.08404/)
+
+---
+
 ## [Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning]({{ site.baseurl }}/papers/2607.07708/)
 
 **2026-07-08** · Chen Tang et al. 
@@ -288,16 +298,6 @@ Structure-property relationships are foundational to biology, chemistry and mate
 
 ---
 
-## [FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents]({{ site.baseurl }}/papers/2607.05682/)
-
-**2026-07-06** · Yufeng Wang et al. 
-
-LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposing the mechanism, falsifier, or assumption that a...
-
-[Read more →]({{ site.baseurl }}/papers/2607.05682/)
-
----
-
 ## [URSA: Chemistry-Aware Benchmark for Utilitarian Retrosynthesis Assessment]({{ site.baseurl }}/papers/2607.04688/)
 
 **2026-07-06** · Bogdan Zagribelnyy et al. 
@@ -305,6 +305,16 @@ LLM systems for scientific discovery increasingly assist with ideation, literatu
 Synthesis planning aiming to find pathways of reactions for a target molecule is one of the most important and challenging tasks in drug discovery. Recent progress has produced both specialized deep-learning retrosynthesis systems and general-purpose large language models, but objective comparison r...
 
 [Read more →]({{ site.baseurl }}/papers/2607.04688/)
+
+---
+
+## [FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents]({{ site.baseurl }}/papers/2607.05682/)
+
+**2026-07-06** · Yufeng Wang et al. 
+
+LLM systems for scientific discovery increasingly assist with ideation, literature synthesis, experiment planning, and report generation, but the first research question they propose can remain difficult to audit: it may sound plausible without exposing the mechanism, falsifier, or assumption that a...
+
+[Read more →]({{ site.baseurl }}/papers/2607.05682/)
 
 ---
 
@@ -328,6 +338,16 @@ Building AI Scientist agents with Large Language Models (LLMs) has recently attr
 
 ---
 
+## [Active-GRPO: Adaptive Imitation and Self-Improving Reasoning for Molecular Optimization]({{ site.baseurl }}/papers/2607.00531/)
+
+**2026-07-01** · Xuefeng Liu et al. 
+
+Scientific reasoning is an increasingly important capability of large language models, yet improving the robustness and efficiency of training such reasoning remains a key open challenge. We study this problem in instruction-based molecular optimization, where answer-only supervised fine-tuning (SFT...
+
+[Read more →]({{ site.baseurl }}/papers/2607.00531/)
+
+---
+
 ## [Autonomous Scientific Discovery via Iterative Meta-Reflection]({{ site.baseurl }}/papers/2607.01131/)
 
 **2026-07-01** · Bingchen Zhao et al. 
@@ -345,16 +365,6 @@ Autonomous scientific discovery systems offer the potential to accelerate resear
 Computer-assisted synthesis planning breaks target molecules into accessible precursors using large libraries of reaction rules that assign each transformation a deterministic, interpretable label. But chemistry is long-tailed, making manual encoding intractable, and existing tools rely on fixed rul...
 
 [Read more →]({{ site.baseurl }}/papers/2607.01061/)
-
----
-
-## [Active-GRPO: Adaptive Imitation and Self-Improving Reasoning for Molecular Optimization]({{ site.baseurl }}/papers/2607.00531/)
-
-**2026-07-01** · Xuefeng Liu et al. 
-
-Scientific reasoning is an increasingly important capability of large language models, yet improving the robustness and efficiency of training such reasoning remains a key open challenge. We study this problem in instruction-based molecular optimization, where answer-only supervised fine-tuning (SFT...
-
-[Read more →]({{ site.baseurl }}/papers/2607.00531/)
 
 ---
 
@@ -378,13 +388,13 @@ Autonomous research agents can now draft hypotheses, write code, run experiments
 
 ---
 
-## [Towards Generalizable and Evidential Nuclear Magnetic Resonance-Based Molecular Structure Elucidation via Large Language Model Agent]({{ site.baseurl }}/papers/2606.29776/)
+## [BayesEvolve: Explicit Belief States for Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2606.30335/)
 
-**2026-06-29** · Zheng Fang et al. 
+**2026-06-29** · Xuening Wu et al. 
 
-Nuclear Magnetic Resonance (NMR) spectroscopy is the gold standard for molecular structure elucidation, yet interpreting complex spectra for unknown molecules remains a bottleneck reliant on human expertise. While artificial intelligence has advanced this field, current methods face a critical trade...
+Autonomous scientific discovery systems increasingly use large language models (LLMs) to propose new hypotheses, but many such systems condition primarily on experimental memory: archives of high-scoring candidates or heuristic summaries of recent trials. We argue that discovery agents should instea...
 
-[Read more →]({{ site.baseurl }}/papers/2606.29776/)
+[Read more →]({{ site.baseurl }}/papers/2606.30335/)
 
 ---
 
@@ -398,13 +408,13 @@ Large language model (LLM) agents are increasingly used across the scientific re
 
 ---
 
-## [BayesEvolve: Explicit Belief States for Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2606.30335/)
+## [Towards Generalizable and Evidential Nuclear Magnetic Resonance-Based Molecular Structure Elucidation via Large Language Model Agent]({{ site.baseurl }}/papers/2606.29776/)
 
-**2026-06-29** · Xuening Wu et al. 
+**2026-06-29** · Zheng Fang et al. 
 
-Autonomous scientific discovery systems increasingly use large language models (LLMs) to propose new hypotheses, but many such systems condition primarily on experimental memory: archives of high-scoring candidates or heuristic summaries of recent trials. We argue that discovery agents should instea...
+Nuclear Magnetic Resonance (NMR) spectroscopy is the gold standard for molecular structure elucidation, yet interpreting complex spectra for unknown molecules remains a bottleneck reliant on human expertise. While artificial intelligence has advanced this field, current methods face a critical trade...
 
-[Read more →]({{ site.baseurl }}/papers/2606.30335/)
+[Read more →]({{ site.baseurl }}/papers/2606.29776/)
 
 ---
 
@@ -488,16 +498,6 @@ The Categorical Jacobian of Zhang et al. (2024) reads protein contacts from a la
 
 ---
 
-## [Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform]({{ site.baseurl }}/papers/2606.20120/)
-
-**2026-06-18** · Hyeonna Choi et al. 
-
-Biological experiment protocols are written in natural language, whereas automation systems rely on predefined control commands, creating a semantic gap that limits autonomous execution. Microplate-based automatic experiments are particularly challenging due to the need to simultaneously control wel...
-
-[Read more →]({{ site.baseurl }}/papers/2606.20120/)
-
----
-
 ## [Measuring Biological Capabilities and Risks of AI Agents]({{ site.baseurl }}/papers/2606.19899/)
 
 **2026-06-18** · Patricia Paskov et al. 
@@ -505,6 +505,16 @@ Biological experiment protocols are written in natural language, whereas automat
 This paper addresses a rapidly emerging policy challenge: how to generate and interpret credible evidence about the biological capabilities and risks of AI scientists, or agentic AI systems capable of autonomously or collaboratively performing multi-step scientific tasks. As these systems enter real...
 
 [Read more →]({{ site.baseurl }}/papers/2606.19899/)
+
+---
+
+## [Dual-Agent Framework for Cross-Model Verified Translation of Natural-Language Protocols into Robotic Laboratory Platform]({{ site.baseurl }}/papers/2606.20120/)
+
+**2026-06-18** · Hyeonna Choi et al. 
+
+Biological experiment protocols are written in natural language, whereas automation systems rely on predefined control commands, creating a semantic gap that limits autonomous execution. Microplate-based automatic experiments are particularly challenging due to the need to simultaneously control wel...
+
+[Read more →]({{ site.baseurl }}/papers/2606.20120/)
 
 ---
 
@@ -518,13 +528,13 @@ AI systems can increasingly automate scientific workflows, but the reasoning tha
 
 ---
 
-## [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2606.13662/)
+## [An LLM System for Autonomous Variational Quantum Circuit Design]({{ site.baseurl }}/papers/2606.13380/)
 
-**2026-06-11** · Amy Xin et al. 
+**2026-06-11** · Kenya Sakka et al. 
 
-LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities cont...
+The design of high performing quantum circuits remains largely dependent on human expertise. We introduce an autonomous agentic framework that employs large language models (LLMs) to conduct iterative quantum circuit designs under explicit design constraints. Our system integrates seven components: ...
 
-[Read more →]({{ site.baseurl }}/papers/2606.13662/)
+[Read more →]({{ site.baseurl }}/papers/2606.13380/)
 
 ---
 
@@ -538,13 +548,13 @@ Molecular dynamics (MD) is the canonical in-silico method for atomistic molecula
 
 ---
 
-## [An LLM System for Autonomous Variational Quantum Circuit Design]({{ site.baseurl }}/papers/2606.13380/)
+## [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2606.13662/)
 
-**2026-06-11** · Kenya Sakka et al. 
+**2026-06-11** · Amy Xin et al. 
 
-The design of high performing quantum circuits remains largely dependent on human expertise. We introduce an autonomous agentic framework that employs large language models (LLMs) to conduct iterative quantum circuit designs under explicit design constraints. Our system integrates seven components: ...
+LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities cont...
 
-[Read more →]({{ site.baseurl }}/papers/2606.13380/)
+[Read more →]({{ site.baseurl }}/papers/2606.13662/)
 
 ---
 
