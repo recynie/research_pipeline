@@ -5,656 +5,376 @@ title: "AI Research Daily"
 
 # AI Research — Daily Paper Digest
 
-**2026-09-16** — 132 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
+**2026-09-17** — 102 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
 
 
-## [Turn-level Multiscale Density Ratio Estimation for LLM Agents]({{ site.baseurl }}/papers/2609.16760/)
+## [Higher-order pruning of experts in mixture-of-experts language models]({{ site.baseurl }}/papers/2609.18916/)
 
-**2026-09-15** · Zishuo Zhao et al. 
+**2026-09-16** · Alex M. Tseng et al. 
 
-With the rapid development of Large language model (LLM), agent systems enhanced by LLMs show huge potential in being able to deal with complex tasks, especially involving multi-step thinking or interaction with tools. For applying LLM techniques with a well-designed agent paradigm, post-training of...
+Mixture-of-Experts (MoE) language models suffer from large parameter counts, which create a significant memory bottleneck. Expert pruning is the most direct approach for reducing this parameter count, yet existing methods make pruning decisions for each expert independently, and assume experts' cont...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16760/)
+[Read more →]({{ site.baseurl }}/papers/2609.18916/)
 
 ---
 
-## [Easy to Catch a Liar, Hard to Clear an Honest One: Language Models Diagnosing a Corrupted Reward Channel from a Verified Record]({{ site.baseurl }}/papers/2609.17226/)
+## [AutoTuneBench: Trustworthy Measurement for Agent Auto-Tuning of LLM Serving Engines]({{ site.baseurl }}/papers/2609.18123/)
 
-**2026-09-15** · Arman Nik Khah et al. 
+**2026-09-16** · Li Chen et al. 
 
-An agent that learns from rewards has to trust whatever reports those rewards. When the reports suddenly change, either the world changed or the reporter broke. From the reports alone these are indistinguishable, and reinforcement learning theory shows that no amount of further experience separates ...
+Large language model agents tune GPU kernels and serving engines through a closed loop of propose, measure, and keep, but the measurements behind this loop are not trustworthy. We characterize four failure modes from a four-day pilot corpus of 619 model calls: strawman baselines manufacture speedups...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17226/)
+[Read more →]({{ site.baseurl }}/papers/2609.18123/)
 
 ---
 
-## [Repurposing Unified Topological Signatures for Graph Representation Learning]({{ site.baseurl }}/papers/2609.17061/)
+## [Stable Filters for Generative Modeling of Graph Signals]({{ site.baseurl }}/papers/2609.18759/)
 
-**2026-09-15** · Sanyam Sanjay Jain et al. 
+**2026-09-16** · Martin Schmidt et al. 
 
-Message-passing Graph Neural Networks (GNNs) iteratively propagate and aggregate local neighborhood information followed by global readout to learn graph representations. However, their discriminative power is upper-bounded by the Weisfeiler--Lehman (1-WL) graph isomorphism test. This prevents GNNs ...
+Generating signals on graphs requires permutation-equivariant models that exhibit stability with respect to relative structural perturbations. While recent graph-aware Schrödinger bridge models incorporate topology information directly into their reference dynamics, it is unclear how perturbations o...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17061/)
+[Read more →]({{ site.baseurl }}/papers/2609.18759/)
 
 ---
 
-## [AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET]({{ site.baseurl }}/papers/2609.17123/)
+## [Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making]({{ site.baseurl }}/papers/2609.18591/)
 
-**2026-09-15** · Min-Hui Kim et al. 
+**2026-09-16** · Yu Liu et al. 
 
-Thermal optimization of 2D CFET inverters requires testing structural proposals against their electrical costs. We examine these research tasks using an AI agent workflow within a supplied electrothermal model. At 12 nm, Astra selects a redistributed source-interconnect geometry, while a coordinatin...
+In-context learning (ICL) enables large language model (LLM) agents to improve decisions using interaction history, yet it remains unclear whether such improvement reflects refined internal reasoning or mere extrapolation of statistical patterns. To disentangle these mechanisms, we study LLM agents ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17123/)
+[Read more →]({{ site.baseurl }}/papers/2609.18591/)
 
 ---
 
-## [End-to-End Latency-Minimizing and Load-Balanced Request Scheduling for Edge LLM Inference in Agentic AI Services]({{ site.baseurl }}/papers/2609.17193/)
+## [Reasoning through Evolution: Automatic Meta-path Discovery for LLM-based Fake News Detection]({{ site.baseurl }}/papers/2609.18597/)
 
-**2026-09-15** · Zhen Li et al. 
+**2026-09-16** · Ziyi Zhou et al. 
 
-Large language model (LLM)-powered agentic AI services increasingly demand low-latency inference, motivating the deployment of LLMs across distributed edge servers. However, heterogeneous communication and computing capabilities, together with dynamically evolving inference states, make the edge ser...
+Propagation structures provide crucial evidence for fake news detection, yet existing approaches primarily rely on supervised GNN-based models, which require substantial labeled data and exhibit limited generalization. Although large language models (LLMs) exhibit strong reasoning capabilities, dire...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17193/)
+[Read more →]({{ site.baseurl }}/papers/2609.18597/)
 
 ---
 
-## [Structural Negative Transfer in Federated Graph Neural Networks: Diagnosis, Causal Investigation, and the Limits of Divergence-Aware Mitigation]({{ site.baseurl }}/papers/2609.16977/)
+## [Collective Loss of Control in LLM Agent Systems: An Epidemic Account of Mutation, Contagion, and Recovery]({{ site.baseurl }}/papers/2609.18460/)
 
-**2026-09-15** · Chethana Prasad Kabgere et al. 
+**2026-09-16** · Xiangfan Wu et al. 
 
-Federated learning lets multiple participants train a shared model without pooling raw data, by exchanging locally trained model updates instead. Federated averaging assumes that averaging local models is a reasonable way to solve one shared problem when participants' data are broadly similar. Work ...
+How does a multi-agent system evolve from a local deviation into collective loss of control? We propose an epidemic explanation organized around accidental mutation, contagion, and recovery. A spontaneous deviation creates a seed; communication enables other agents to adopt and retransmit its unsafe...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16977/)
+[Read more →]({{ site.baseurl }}/papers/2609.18460/)
 
 ---
 
-## [CoAdapt: An LLM-based Framework for Adaptive Collaborative Perception in IIoT Robotic Swarms]({{ site.baseurl }}/papers/2609.16852/)
+## [AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution]({{ site.baseurl }}/papers/2609.18520/)
 
-**2026-09-15** · Houssam Hajj Hassan et al. 
+**2026-09-16** · Jiabin Lou et al. 
 
-Industrial IoT environments increasingly deploy autonomous mobile robots for tasks such as material handling, product assembly, or infrastructure inspection. In such deployments, collaborative perception enables robots to share LiDAR observations and collectively construct a richer model of their en...
+Collective intelligence is a collaborative autonomy paradigm in which multiple agents pursue shared objectives through local perception, information exchange, and coordinated action. UAV swarms embody this paradigm by coordinating multiple vehicles in tasks such as search, inspection, and tracking. ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16852/)
+[Read more →]({{ site.baseurl }}/papers/2609.18520/)
 
 ---
 
-## [Bridging Learned Visual Perception and Symbolic Belief-Space Planning]({{ site.baseurl }}/papers/2609.16884/)
+## [Faithful yet Collusive: Why Chain-of-Thought Monitoring Cannot Detect Collusion in LLM Pricing Agents under Oligopolistic Competition]({{ site.baseurl }}/papers/2609.18346/)
 
-**2026-09-15** · Guy Azran et al. 
+**2026-09-16** · Dohun Lee et al. 
 
-In partially observable settings, agents must act without full knowledge of the world state and rely on uncertain state-estimation pipelines. Obtaining grounded and verifiable symbolic plans under such uncertainty remains a key challenge. Recent work has integrated Vision-Language Models (VLMs) to b...
+Large language models (LLM) deployed as autonomous pricing agents may sustain supracompetitive prices through tacit coordination. We develop a causal graph divergence framework that separately measures structural faithfulness and intent faithfulness of LLM pricing agents in Bertrand competition. Acr...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16884/)
+[Read more →]({{ site.baseurl }}/papers/2609.18346/)
 
 ---
 
-## [ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents]({{ site.baseurl }}/papers/2609.17523/)
+## [TuiML: Machine Learning for AI Agents]({{ site.baseurl }}/papers/2609.17984/)
 
-**2026-09-15** · Shuhan Xue et al. 
+**2026-09-16** · Nilesh Verma et al. 
 
-We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution ...
+Machine-learning libraries such as Weka and scikit-learn were designed for human programmers. Language-model agents now use these same libraries by recalling APIs from memory and writing code, an approach that hides what a library offers, delays errors until runtime, and loses experimental state bet...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17523/)
+[Read more →]({{ site.baseurl }}/papers/2609.17984/)
 
 ---
 
-## [Skill-based Agentic Evaluation for Real-time Data Science Tasks]({{ site.baseurl }}/papers/2609.16487/)
+## [CERA-MoA: Co-Evolving Routing Mechanisms with Continually Learning LLM Agents]({{ site.baseurl }}/papers/2609.18779/)
 
-**2026-09-15** · Aniruddha Tamhane et al. 
+**2026-09-16** · Jiaxuan Jiang et al. 
 
-We present a framework for evaluating data-science agents on live, continuously updated data using executable ground truth and format-agnostic factoid scoring. Consider this example query: "what were last week's audience sizes"---the reference answer changes as the underlying data changes, so static...
+Current Mixture-of-Agents (MoA) paradigms generally treat query routing and agent fine-tuning as separate processes, limiting their ability to respond to evolving agent capabilities. This disconnect prevents routing strategies from adapting to evolving agent capabilities during post-training and pre...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16487/)
+[Read more →]({{ site.baseurl }}/papers/2609.18779/)
 
 ---
 
-## [Symbolic Separation: Grounding Deep Agents in Knowledge Graphs for Trustworthy Operational Data Analytics]({{ site.baseurl }}/papers/2609.17107/)
+## [Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders]({{ site.baseurl }}/papers/2609.17989/)
 
-**2026-09-15** · Baibek Davletiyarov et al. 
+**2026-09-16** · Davood Wadi et al. 
 
-Generative AI promises natural language access to the massive numerical telemetry of data centers and Industry 4.0 installations, yet text-to-query and tool-using agents stay unreliable: even frontier models answer little more than half of real-world database questions, and far fewer of the multi-st...
+Large language models (LLMs) now serve as conversational shopping assistants on platforms that also sell advertising. These AI agents face a conflict of duty. They advise consumers who rely on their judgment, yet are deployed by platforms that benefit when sponsored listings are chosen. Sponsorship ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17107/)
+[Read more →]({{ site.baseurl }}/papers/2609.17989/)
 
 ---
 
-## [ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents]({{ site.baseurl }}/papers/2609.17010/)
+## [When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI]({{ site.baseurl }}/papers/2609.17977/)
 
-**2026-09-15** · Cai Ke et al. 
+**2026-09-16** · Sai Babu Udayagiri et al. 
 
-Lifelong conversational agents rely on memory systems to maintain deep, context-aware interactions with users. However, existing explicit textual memory pipelines suffer from a severe information bottleneck, often losing subtle behavioral patterns and emotional shifts. Furthermore, being typically s...
+Emotion recognition in conversation (ERC) is a production capability behind agent-assist prompts, escalation routing, and post-call analytics in contact-center-as-a-service (CCaaS) platforms, where cost and latency constraints matter as much as accuracy. We report a systems-level comparison of three...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17010/)
+[Read more →]({{ site.baseurl }}/papers/2609.17977/)
 
 ---
 
-## [Mo' Models, Mo' Problems: How to best select model pools when designing Multi-Agent Systems]({{ site.baseurl }}/papers/2609.17306/)
+## [Market Signal Injection: Adversarial Context Manipulation of LLM Pricing Agents]({{ site.baseurl }}/papers/2609.18357/)
 
-**2026-09-15** · Sara Vera Marjanović et al. 
+**2026-09-16** · Dohun Lee et al. 
 
-Multi-agent Systems (MAS) combine multiple model outputs to solve complex reasoning tasks. However, despite rapid growth of available open-source models, there is limited research on how to select optimal model candidates out of this massive pool. We systematically evaluate 8 model selection strateg...
+Large language model (LLM) pricing agents may respond to how market data is presented, even when its numerical values remain unchanged. We introduce market signal injection (MSI), an attack that manipulates numerical formatting, competitor ordering, or qualitative market commentary without issuing e...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17306/)
+[Read more →]({{ site.baseurl }}/papers/2609.18357/)
 
 ---
 
-## [little m: An AI Agent for Industrial Process Optimization]({{ site.baseurl }}/papers/2609.16680/)
+## [Agora: Git as Shared Memory for Collective AutoResearch]({{ site.baseurl }}/papers/2609.18094/)
 
-**2026-09-15** · Yongchao Ye et al. 
+**2026-09-16** · Yifan Zhang et al. 
 
-Manufacturing consumes one third of global energy and still has significant room for improvement in terms of energy efficiency. Optimal process control is essential for this purpose. However, synthesizing mathematical optimization models from messy, real-world industrial specifications requires brid...
+Autonomous research loops such as AutoResearch show that one coding agent can improve a training setup unattended. Run several of them and each session starts from scratch, so more agents tend to mean more duplicated search rather than more discovery. Agora is a shared memory for such agents: resear...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16680/)
+[Read more →]({{ site.baseurl }}/papers/2609.18094/)
 
 ---
 
-## [Self-Emergence Agent Architecture:Behavior-Inertia HMM, Reflexive Metacognition,and Social-Contrastive Self-Modeling]({{ site.baseurl }}/papers/2609.17331/)
+## [Symbolic Temporal Supervision of LLM Agents Using Contracts]({{ site.baseurl }}/papers/2609.18128/)
 
-**2026-09-15** · Xiaoyang Liu et al. 
+**2026-09-16** · Yifeng Xiao et al. 
 
-Large language model (LLM) agents exhibit strong language-generation and problem-solving capabilities, yet suffer from three structural limitations: personality drift, non-evolutionary reflection, and the absence of a self-other boundary. Existing generative-agent simulations rely on static memory a...
+Large language model (LLM) agents augmented by tools can automate complex, multi-step tasks, such as web navigation, code generation, and workflow orchestration, by acting on external systems through tool calls. However, hallucinations, distributional instability, and adversarial manipulations in LL...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17331/)
+[Read more →]({{ site.baseurl }}/papers/2609.18128/)
 
 ---
 
-## [AURA: Agentic Diagnosis and Refinement for Production Recommender Systems at Scale]({{ site.baseurl }}/papers/2609.16625/)
+## [ReDIL-GNN: Resynthesis Domain Incremental Learning for Circuit Graph Neural Networks]({{ site.baseurl }}/papers/2609.18595/)
 
-**2026-09-15** · SungGeun Kim et al. 
+**2026-09-16** · Rupesh Raj Karn et al. 
 
-How and why does a recommender system fail the users it serves? Oftentimes, practitioners are left to improve their algorithms based on a combination of feedback from stakeholder teams, domain expertise, and insights from data analyses. Yet the nuances of how and where recommendations perform well o...
+Logic resynthesis preserves circuit functionality while changing gate vocabulary, topology, and structural statistics, creating domain shift for circuit graph neural networks (GNNs) without changing task labels. To study this setting, we introduce ReDIL-GNN, a resynthesis domain-incremental learning...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16625/)
+[Read more →]({{ site.baseurl }}/papers/2609.18595/)
 
 ---
 
-## [RepoAtlas: Guiding Coding Agents via Evolving Multimodal Repository Views]({{ site.baseurl }}/papers/2609.16936/)
+## [What Counts as Strategic Reasoning? A Systematic Mapping of Chess Research on Humans, Engines, and Language Models]({{ site.baseurl }}/papers/2609.18286/)
 
-**2026-09-15** · Yunxiang Zhang et al. 
+**2026-09-16** · Paolo Ciancarini et al. 
 
-Large language model (LLM)-powered coding agents have made rapid progress in automating software engineering tasks, yet repository-level issue resolution remains challenging. Beyond generating a plausible patch, an agent must localize relevant code across interdependent files and maintain repository...
+Chess has long served as a model domain for studying search, expertise, decision-making, and artificial intelligence. The emergence of large language models (LLMs) has renewed the relevance of chess as a controlled environment for investigating strategic reasoning and comparing human and artificial ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16936/)
+[Read more →]({{ site.baseurl }}/papers/2609.18286/)
 
 ---
 
-## [Verifiable Social Reasoning for LLM Assistants]({{ site.baseurl }}/papers/2609.17496/)
+## [Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents]({{ site.baseurl }}/papers/2609.18598/)
 
-**2026-09-15** · Amir Taubenfeld et al. 
+**2026-09-16** · Izumi Takahara et al. 
 
-LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others'...
+Self-driving laboratories can explore synthesis conditions autonomously, but their decision-making layer is typically a black-box optimizer, and the output is a set of optimized samples, with the measurements reduced to predefined scalar objectives and the reasons behind success left unarticulated. ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17496/)
+[Read more →]({{ site.baseurl }}/papers/2609.18598/)
 
 ---
 
-## [Unified Heterogeneous Graph Neural Network solver for Power Flow, Optimal Power Flow and State Estimation]({{ site.baseurl }}/papers/2609.16738/)
+## [Where Should Agents Live? Energy-Memory Characterization of Agentic AI for the Edge-Cloud Continuum]({{ site.baseurl }}/papers/2609.18283/)
 
-**2026-09-15** · Ferran Bohigas-Daranas et al. 
+**2026-09-16** · Carolina Fortuna et al. 
 
-Power Flow (PF), Optimal Power Flow (OPF), and State Estimation (SE) are fundamental problems in power system analysis, but solving them is computationally expensive. Graph Neural Networks (GNNs) have been proposed as fast surrogates, yet existing solvers are trained for a single problem at a time, ...
+As telecommunication networks evolve toward autonomous 5G-Advanced and 6G operations, agentic artificial intelligence (AI) workflows, where large language models (LLMs) execute multi-step reasoning, invoke diagnostic tools, retrieve domain knowledge, and coordinate across agent teams, are increasing...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16738/)
+[Read more →]({{ site.baseurl }}/papers/2609.18283/)
 
 ---
 
-## [Protocol-Preserving Context Trimming for Agentic Workflows: Benefits, Failure Regimes, and Budget Guardrails]({{ site.baseurl }}/papers/2609.16461/)
+## [WFM: Wiki Foundation Model for Complex Agentic Reasoning]({{ site.baseurl }}/papers/2609.18182/)
 
-**2026-09-15** · Harish Gaggar et al. 
+**2026-09-16** · Junnan Dong et al. 
 
-Agentic large language model (LLM) systems rely on long interaction histories to preserve instructions, tool states, intermediate decisions, and unresolved dependencies, but unrestricted context growth increases computational cost and can reduce efficiency. This study evaluates protocol-preserving c...
+Real-world agents fundamentally require persistent non-parametric knowledge for dynamic reasoning, i.e., long-term memory and retrieval-augmented generation. While graphs have shown reliable advantages in providing structured evidence, the sparse graph representations naturally restrict machine read...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16461/)
+[Read more →]({{ site.baseurl }}/papers/2609.18182/)
 
 ---
 
-## [Interactive Memory Learning for Long-Term Conversations]({{ site.baseurl }}/papers/2609.17088/)
+## [Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment]({{ site.baseurl }}/papers/2609.18106/)
 
-**2026-09-15** · Cai Ke et al. 
+**2026-09-16** · Kosuke Kitahara et al. 
 
-Recent advancements in large language models have significantly enhanced the capabilities of agents in modeling long-term conversations. Despite these successes, existing approaches typically adopt a static heuristic paradigm, where information is passively archived without adaptive memory valuation...
+Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes -- and the regulatory exposure these create under the EU AI Act high-risk classification (Annex III) and U.S. EEOC adverse-impact analysis -- remain poorly understood. We present the first...
 
-[Read more →]({{ site.baseurl }}/papers/2609.17088/)
+[Read more →]({{ site.baseurl }}/papers/2609.18106/)
 
 ---
 
-## [QART: A Quantum-Classical Hybrid Architecture for Long-Horizon Reasoning -- Exploring a Conditional Path toward Quantum Scaling]({{ site.baseurl }}/papers/2609.16887/)
+## [PACT: Can Enterprise AI Assistants Be Trusted Under Pressure?]({{ site.baseurl }}/papers/2609.18605/)
 
-**2026-09-15** · Lehao Lin et al. 
+**2026-09-16** · Mika Okamoto et al. 
 
-Long-horizon reasoning is vulnerable to early errors that compromise later decisions. We present QART, the Quantum-Augmented Reasoning Transformer, a quantum--classical hybrid architecture combining a backbone language model with quantum encoding, CIM-based QUBO optimization, and quantum decoding. S...
+As corporate AI adoption continues to grow, enterprise-grade LLM agents are being deployed into sensitive contexts such as hiring, healthcare, and finance. In these contexts, compliance with rules specified in an agent's system context is a first-order legal concern. Currently, no evaluation framewo...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16887/)
+[Read more →]({{ site.baseurl }}/papers/2609.18605/)
 
 ---
 
-## [Large Language Models in the Loop: A Stability- and Network-Aware Survey in Networked Control, Cyber-Physical, and Multi-Agent Systems]({{ site.baseurl }}/papers/2609.16599/)
+## [Autonomy in Check: Governor-Mediated Adaptive Security at the Edge]({{ site.baseurl }}/papers/2609.18338/)
 
-**2026-09-15** · Haiping Du et al. 
+**2026-09-16** · Ijaz Ahmad et al. 
 
-Modern networked control systems (NCSs), cyber-physical systems (CPSs), and complex multi-agent network systems (CNSs) increasingly rely on large language models (LLMs) for high-level decision-making. However, the slow, stochastic nature of LLMs directly conflicts with the strict stability and safet...
+Adaptive security at the network edge increasingly relies on automated planners, including rule-based controllers, learned policies, and LLM-assisted agents, that translate observations into enforcement actions. Once such a planner can influence live policy state, syntactic validity is not enough. A...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16599/)
+[Read more →]({{ site.baseurl }}/papers/2609.18338/)
 
 ---
 
-## [Interpreting and Steering LLM Agents for Social Simulations]({{ site.baseurl }}/papers/2609.16436/)
+## [Clueing up LLMs with Tool-Augmented Deductive Reasoning]({{ site.baseurl }}/papers/2609.18736/)
 
-**2026-09-14** · Jiayue Gaveal Fan et al. 
+**2026-09-16** · Rebecca Ansell et al. 
 
-Simulations based on large language models (LLMs) have proven to be powerful for understanding human behavior, making them valuable additions to the social scientific toolkit. However, LLMs are ultimately black boxes based on deep neural networks which limits their value for social science. This is ...
+Despite recent advances in large language models (LLMs), performing logically consistent deductive reasoning over extended interactions remains challenging. Tasks that require integrating evidence across multiple reasoning steps, maintaining consistency with prior inferences, and updating beliefs un...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16436/)
+[Read more →]({{ site.baseurl }}/papers/2609.18736/)
 
 ---
 
-## [LiftGCN: Efficient Energy-Preserving Graph Learning via Joukowski Spectral Lifting for Finite Element Stress Prediction]({{ site.baseurl }}/papers/2609.14977/)
+## [Beyond Outcomes: Dual-View Relational Learning for Efficient Agent Benchmarking]({{ site.baseurl }}/papers/2609.18909/)
 
-**2026-09-14** · Chen Zeng et al. 
+**2026-09-16** · Xinshuai Guo et al. 
 
-Finite element stress fields often exhibit strong local non-smoothness, where stress concentrations near holes, notches, and loading regions induce sharp spatial gradients and high-frequency graph components. Although graph neural networks naturally operate on irregular finite element meshes, conven...
+Agent benchmarks are substantially more costly to evaluate than conventional LLM benchmarks. Benchmark compression is therefore a natural solution, yet existing methods primarily model redundancy in task--model final-score distributions, which is important in agentic evaluation. To address this limi...
 
-[Read more →]({{ site.baseurl }}/papers/2609.14977/)
+[Read more →]({{ site.baseurl }}/papers/2609.18909/)
 
 ---
 
-## [Vulnerability Localization Benchmark: Measuring Agentic Security Analysis at Repository Scale]({{ site.baseurl }}/papers/2609.15939/)
+## [An Empirical Evaluation of Cost-Efficient Large Language Models on Algorithmic Programming Tasks]({{ site.baseurl }}/papers/2609.18052/)
 
-**2026-09-14** · Aman Priyanshu et al. 
+**2026-09-16** · Chandimal Adikari et al. 
 
-Language-model agents increasingly operate over complete software repositories, yet cybersecurity evaluations primarily measure whether they can detect, reproduce, or repair vulnerabilities rather than whether they can locate the relevant code. We study vulnerability localization: given a weakness c...
+This study empirically evaluates whether cost-efficient Large Language Models (LLMs) can be trusted to generate enterprise code to a written specification. Three models (Gemini Flash 3, GPT-5.4 mini and Claude Haiku 4.5) were asked to solve 992 algorithmic problems as Java Spring Boot service method...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15939/)
+[Read more →]({{ site.baseurl }}/papers/2609.18052/)
 
 ---
 
-## [ProtoGuide: Prototype-Driven Guidance for Class-Conditional Graph Generation]({{ site.baseurl }}/papers/2609.15239/)
+## [ASLEval: Measuring Privacy Exposure Displacement in LLM Agent Sessions]({{ site.baseurl }}/papers/2609.18864/)
 
-**2026-09-14** · Salvatore Romano et al. 
+**2026-09-16** · Guosen Wu et al. 
 
-Discrete diffusion models are a prominent family for graph generation, but standard class-conditional mechanisms embed the class signal in the denoiser during training, tying the conditioning mechanism to the trained model. Classifier guidance avoids this coupling in continuous domains by steering a...
+Privacy evaluations of tool-using LLM agents often inspect a designated action, final response, or attacker report. These local proxies can miss unauthorized exposure elsewhere in a multi-step session and lack common ground truth across outlets, reports, and tool paths. We introduce privacy exposure...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15239/)
+[Read more →]({{ site.baseurl }}/papers/2609.18864/)
 
 ---
 
-## [RSIAgent: Autonomous Exploration for Recursive Self-improvement in New Environments]({{ site.baseurl }}/papers/2609.15364/)
+## [Confidence Comes from Experience: Experiential Confidence Estimation from Reasoning to Agents]({{ site.baseurl }}/papers/2609.17708/)
 
-**2026-09-14** · Sibo Zhu et al. 
+**2026-09-15** · Caiqi Zhang et al. 
 
-Digital agents must often adapt to new environments whose interfaces, tools, and failure modes are not fully captured by pretrained models. We introduce \textbf{RSIAgent}, a training-free multi-agent framework for recursive self-improvement through autonomous memory construction. RSIAgent coordinate...
+Reliable confidence estimation is increasingly central to the trustworthy deployment of language models: a calibrated estimate of the probability that an output is correct decides what to ship, what to escalate, and what to retry. Existing confidence estimators, however, share one design premise: th...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15364/)
+[Read more →]({{ site.baseurl }}/papers/2609.17708/)
 
 ---
 
-## [The Router Within: Eliciting Native Skill Routing from a Frozen LLM]({{ site.baseurl }}/papers/2609.15982/)
+## [FairCompressAgent: An Agentic Framework for Fairness-Aware Model Compression for FPGA Deployment]({{ site.baseurl }}/papers/2609.17786/)
 
-**2026-09-14** · Ruishuo Chen et al. 
+**2026-09-15** · Yuanbo Guo et al. 
 
-Skills extend an LLM agent beyond its parametric knowledge, and the gain they promise rests on picking the right one. Deployed harnesses route by preloading every skill's metadata into the context, which disperses the agent's attention and caps the library size. Retrieval pipelines move the selectio...
+Fairness-aware model compression requires selecting methods and configurations that balance accuracy, fairness, and deployment cost. These decisions become more difficult when compression methods are composed or the user's requirements change. In this paper, we propose FairCompressAgent (FCA), an ag...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15982/)
+[Read more →]({{ site.baseurl }}/papers/2609.17786/)
 
 ---
 
-## [CLEAR: Cross-Source Evidence Adjudication for Large Language Models in Medicine]({{ site.baseurl }}/papers/2609.16301/)
+## [Lexara-RF: Reference-Free Metrics for Evaluating Conversational Visual Analytics Agents]({{ site.baseurl }}/papers/2609.17842/)
 
-**2026-09-14** · Shuai Wang et al. 
+**2026-09-15** · Srishti Palani et al. 
 
-Medical knowledge evolves continuously, whereas the parametric knowledge encoded in large language models (LLMs) is fixed at training time. External retrieval, including retrieval-augmented generation (RAG), can provide access to newly available evidence, but retrieved information may be irrelevant,...
+Conversational visual analytics (CVA) agents powered by large language models generate visualizations and natural-language explanations from open-ended queries. Evaluating these multimodal outputs is challenging: curated reference benchmarks are costly to author, cannot comprehensively capture the s...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16301/)
+[Read more →]({{ site.baseurl }}/papers/2609.17842/)
 
 ---
 
-## [BLINDSPOT: A Benchmark for Safety and Refusal Calibration in Long-Horizon Tool-Using Agents]({{ site.baseurl }}/papers/2609.16305/)
+## [Collaborative Memory for Multi-Agent VLM Systems]({{ site.baseurl }}/papers/2609.17921/)
 
-**2026-09-14** · Sadia Asif et al. 
+**2026-09-15** · Huixin Zhang et al. 
 
-Large language model (LLM) agents increasingly operate over long-horizon interactions involving tool use, persistent state, evolving authorization, and external environment feedback. In such settings, safety failures may emerge only after multiple turns, yet existing evaluations often reduce agent b...
+Vision-language model (VLM) agents combine specialized perception, tools, and reasoning to address complex visual tasks. In multi-agent settings, different agents inspect different image regions, video frames, or visual representations, so collaboration extends beyond distributed reasoning to distri...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16305/)
+[Read more →]({{ site.baseurl }}/papers/2609.17921/)
 
 ---
 
-## [SkillLift: Learning Dense Rubrics from Sparse Oracles for Efficient Skill Evolution]({{ site.baseurl }}/papers/2609.15396/)
+## [Reflections on Trusting Trust, Revisited: Contaminating Self-Modifying AI Coding Agents with Poisoned Benchmarks]({{ site.baseurl }}/papers/2609.17817/)
 
-**2026-09-14** · Haoxiang Kang et al. 
+**2026-09-15** · Franziska Roesner et al. 
 
-LLM-based agents increasingly rely on persistent skills, i.e., reusable procedural prompts, to adapt without weight updates. Existing skill self-evolution methods directly revise skill text based on execution feedback, but each oracle evaluation requires a full agent rollout, creating a supervision ...
+Thompson's "Reflections on Trusting Trust" showed that a compiler can be poisoned to reinsert its own backdoor, so that even recompiling clean source reproduces the Trojan. Today, substantial coding work is done by AI coding agents -- and increasingly, those agents generate new versions of themselve...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15396/)
+[Read more →]({{ site.baseurl }}/papers/2609.17817/)
 
 ---
 
-## [Cognitive Admission Control: Risk-Conditioned Assurance for Consequential Actions in Agentic Distributed Systems]({{ site.baseurl }}/papers/2609.16313/)
+## [Procedural Pretraining for Molecular Property Prediction]({{ site.baseurl }}/papers/2609.17831/)
 
-**2026-09-14** · Jun He et al. 
+**2026-09-15** · Moritz Friedemann et al. 
 
-In agentic distributed systems, an agent may be authorized to mutate external infrastructure while lacking evidence that the mutation is ready to execute. Cognitive Admission Control (CAC) makes this evidence requirement explicit. A policy maps a typed action and its modeled risk to assurance obliga...
+Molecular property prediction is often limited by the small size of labeled downstream datasets, motivating pretraining on large corpora of unlabeled molecules. In this work, we ask whether useful inductive biases can instead be learned from abstract, procedurally generated data before a model sees ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.16313/)
+[Read more →]({{ site.baseurl }}/papers/2609.17831/)
 
 ---
 
-## [Ensemble-Conditioned Molecular Design]({{ site.baseurl }}/papers/2609.15077/)
+## [EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents]({{ site.baseurl }}/papers/2609.17632/)
 
-**2026-09-14** · Ross Irwin et al. 
+**2026-09-15** · Sehee Kim et al. 
 
-Molecular design is typically approached as a problem of finding molecules which can adopt a single bioactive conformation. In reality, molecules occupy a distribution over conformations, and many of the properties which determine whether a candidate is viable depend on that distribution rather than...
+Large language model (LLM) trading agents can combine market data, news, and executable analysis, but their behavior is often controlled by static hand-written tool-use policies that are fixed before deployment. This limits their ability to adapt how they gather evidence, invoke tools, verify signal...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15077/)
+[Read more →]({{ site.baseurl }}/papers/2609.17632/)
 
 ---
 
-## [Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection]({{ site.baseurl }}/papers/2609.15989/)
+## [HINT-Plan: Human Intention-Aware Robot Task Planning in Context-Rich Environments using Vision Language Models]({{ site.baseurl }}/papers/2609.17771/)
 
-**2026-09-14** · Keertana Chidambaram et al. 
+**2026-09-15** · Yuchen Liu et al. 
 
-Chain-of-thought (CoT) monitoring is a safety strategy where the reasoning of a large language model "actor" is inspected by a "monitor" (often another language model) for signs of unsafe planning, deception, or misalignment. We find that planting harmful but benign-sounding reasoning in the actor's...
+Approaches to incorporating human awareness into mobile robot decision-making mainly focus on collision avoidance in low-level motion planning, often overlooking the challenges posed by human presence and high-level behavior. To address this vacancy, we present HINT-Plan, a novel approach to integra...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15989/)
+[Read more →]({{ site.baseurl }}/papers/2609.17771/)
 
 ---
 
-## [AlgoEvo: Self-Evolving Agentic Search for Automated Algorithm Discovery]({{ site.baseurl }}/papers/2609.15820/)
+## [Reflect, Revise, Reuse: Training-Free Skill Evolution for GUI Agents]({{ site.baseurl }}/papers/2609.17653/)
 
-**2026-09-14** · Junhao Qiu et al. 
+**2026-09-15** · Bofan Chen et al. 
 
-Large language models have advanced automated algorithm discovery by synthesizing executable code, but existing frameworks trap them in rigid search pipelines with pre-defined control flows. This limitation restricts adaptive reasoning, blocks cross-paradigm transfer, and discards valuable execution...
+GUI agents execute long-horizon tasks on dynamic graphical user interfaces, where pop-ups, delayed loads, and relocated widgets routinely invalidate plans fixed before execution. Recent agent-skill frameworks encapsulate reusable procedural knowledge to mitigate this, yet existing skill designs are ...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15820/)
+[Read more →]({{ site.baseurl }}/papers/2609.17653/)
 
 ---
 
-## [Atria Dawn: The Dawn of Agentic Superintelligence]({{ site.baseurl }}/papers/2609.15818/)
+## [A-JIT: Agentic Just-In-Time Software Construction]({{ site.baseurl }}/papers/2609.10248/)
 
-**2026-09-14** · Honglin Guo et al. 
+**2026-09-09** · Mark Marron et al. 
 
-As AI agents become participants in the development of their successors, they reshape both the production of intelligence and the role of human researchers. We introduce Atria Dawn Preview, a foundation agentic language model designed for scientific research and engineering workflows, with the goal ...
+Traditional software delivery assumes a static paradigm: code is constructed prior to execution and deployed as a fixed artifact. We present Agentic Just-In-Time Software Construction (A-JIT), a paradigm that replaces static binaries with dynamic, software systems that can perpetually evolve to meet...
 
-[Read more →]({{ site.baseurl }}/papers/2609.15818/)
-
----
-
-## [Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI]({{ site.baseurl }}/papers/2609.16232/)
-
-**2026-09-14** · Maya Subramanian et al. 
-
-Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI e...
-
-[Read more →]({{ site.baseurl }}/papers/2609.16232/)
-
----
-
-## [EMR: Self-Evolving Medical Multi-Agent System via Experience Mining and Reuse]({{ site.baseurl }}/papers/2609.15161/)
-
-**2026-09-14** · Dongsheng Shi et al. 
-
-Large language model (LLM) driven multi-agent systems have shown promise in complex clinical reasoning, yet existing approaches rely on static strategies and lack persistent clinical memory, preventing self-evolving from prior diagnostic successes and failures. We present EMR, a self-evolving medica...
-
-[Read more →]({{ site.baseurl }}/papers/2609.15161/)
-
----
-
-## [Metacognitive Steering: Learning the Structure of Scientific Judgment]({{ site.baseurl }}/papers/2609.16245/)
-
-**2026-09-14** · Vincent Karpf et al. 
-
-Long-horizon scientific discovery requires agents to alternate between exploration, disciplined execution, and critical reassessment as evidence changes. Current language models are trained primarily on the products of science and optimized using outcome-level signals, providing limited supervision ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.16245/)
-
----
-
-## [Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science]({{ site.baseurl }}/papers/2609.15983/)
-
-**2026-09-14** · Honghao Lin et al. 
-
-Language models can produce plausible short proofs, but may still be unreliable on long-horizon research problems, where progress depends on a sequence of uncertain and interdependent decisions. We introduce Stellar Colosseum, a model-agnostic harness for allocating inference across research in math...
-
-[Read more →]({{ site.baseurl }}/papers/2609.15983/)
-
----
-
-## [EvoOntology: A Self-Evolving Ontology Layer for Data Agents]({{ site.baseurl }}/papers/2609.15779/)
-
-**2026-09-14** · Meiduo Chong et al. 
-
-Data agents aim to fulfill natural-language instructions over heterogeneous data, including tables, files, and databases. However, data agents face a challenging agent-data gap: heterogeneous data resides outside the agent, while the agent can access it (e.g., column names and file paths) only throu...
-
-[Read more →]({{ site.baseurl }}/papers/2609.15779/)
-
----
-
-## [Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance]({{ site.baseurl }}/papers/2609.16213/)
-
-**2026-09-14** · Candace S. Y. Chan et al. 
-
-Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language models can retrieve and integrate scientific information, support experimental planning, and computational analysis; biological foundation models can...
-
-[Read more →]({{ site.baseurl }}/papers/2609.16213/)
-
----
-
-## [OpenAI4S: Code as Action, Science as Sessions]({{ site.baseurl }}/papers/2609.15096/)
-
-**2026-09-14** · Gongbo Zhang et al. 
-
-AI co-scientists could accelerate computational research, but over a long-running study the workflow also has to stay inspectable, resumable and reproducible, which requires persistent computational state and provenance. Here we present OpenAI4S, an open-source scientific research agent built around...
-
-[Read more →]({{ site.baseurl }}/papers/2609.15096/)
-
----
-
-## [Multimodal deep learning from spectra for small-molecule structure identification: enhancing robustness with mixed-condition training]({{ site.baseurl }}/papers/2609.14360/)
-
-**2026-09-13** · Bowen Gao et al. 
-
-In practical molecular characterization, small-molecule structure identification benefits from complementary spectroscopic evidence, but missing, degraded, or mismatched spectra challenge multimodal models. Herein, we incorporate domain knowledge from spectroscopy and chemistry into mixed-condition ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.14360/)
-
----
-
-## [AppliedScientist: Automated Scientific Revision Through Iterative AI Reviewing]({{ site.baseurl }}/papers/2609.14738/)
-
-**2026-09-13** · Vidushee Vats et al. 
-
-Automated reviewing systems are increasingly evaluated based on the quality of the reviews they produce. Yet a review is only useful if acting on it leads to a measurable improvement in the paper. We present AppliedScientist, a closed-loop system that couples an autonomous AI scientist with an AI re...
-
-[Read more →]({{ site.baseurl }}/papers/2609.14738/)
-
----
-
-## [Online Bayesian Node Classification on Inductive Graphs under Distribution Shift]({{ site.baseurl }}/papers/2609.13655/)
-
-**2026-09-12** · Jinwen Xu et al. 
-
-On evolving graphs, node classifiers must satisfy two key requirements: inductive generalization to newly arriving nodes under distribution shift and calibrated uncertainty for safety-sensitive applications. Standard graph neural networks (GNNs) are typically trained once and address neither require...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13655/)
-
----
-
-## [RA-CoA: Training-free Fashion Image Captioning via Retrieval-Augmented Chain-of-Attributes]({{ site.baseurl }}/papers/2609.14100/)
-
-**2026-09-12** · Abhirama Subramanyam Penamakuri et al. 
-
-Fashion Image Captioning (FIC) plays a vital role in enhancing user experience and product search in e-commerce platforms. Unlike natural scene image captioning, FIC requires fine-grained visual reasoning and knowledge of domain-specific terminology to capture subtle attributes such as neckline and ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.14100/)
-
----
-
-## [Machine Learning in Fish Farming]({{ site.baseurl }}/papers/2609.13919/)
-
-**2026-09-12** · Fearghal O'Donncha et al. 
-
-This chapter explores how machine learning (ML) is transforming aquaculture, with a particular focus on enhancing decision-making processes and improving operational efficiency. The chapter is structured to first introduce the challenges in aquaculture and the role of AI and then provide an overview...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13919/)
-
----
-
-## [Enhancing Event Candidate Acquisition for Event Linking]({{ site.baseurl }}/papers/2609.13670/)
-
-**2026-09-12** · Ziyang Zhang et al. 
-
-Event linking associates event mentions in text with entries in a knowledge base (KB), or identifies them as out-of-KB events. Although existing methods use different architectures, candidate event acquisition can still be weakened by short ambiguous mentions, noisy arguments, and evidence that is u...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13670/)
-
----
-
-## [Semantic Knowledge Technologies: what the Semantic Web lost sight of, and what it never had]({{ site.baseurl }}/papers/2609.14121/)
-
-**2026-09-12** · Achille Zappa et al. 
-
-The Semantic Web set out to give information a machine-interpretable form so that software could integrate and reason over it. Its standards became scientific knowledge infrastructure, but the machine competence it promised did not follow, and the systems now answering questions over scientific know...
-
-[Read more →]({{ site.baseurl }}/papers/2609.14121/)
-
----
-
-## [Graph Neural Networks for Influence Maximization in Social Networks: An Unsupervised Minimum Dominating Set Approach]({{ site.baseurl }}/papers/2609.13836/)
-
-**2026-09-12** · Erfan Ahmadi et al. 
-
-The Minimum Dominating Set (MDS) problem is a classic NP-hard combinatorial optimization problem with critical applications in social network analysis, including viral marketing, influence maximization, public health interventions, and information dissemination. Identifying a minimal set of influent...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13836/)
-
----
-
-## [Finite-Time Node Separation in Recurrent Graph Neural Networks with Persistent Gaussian Perturbations]({{ site.baseurl }}/papers/2609.13920/)
-
-**2026-09-12** · Mostafa Haghir Chehreghani et al. 
-
-Persistent Gaussian perturbations have been shown to prevent asymptotic oversmoothing in recurrent Graph Neural Networks (GNNs) by ensuring a positive stationary Dirichlet energy. However, this global energy bound does not guarantee that individual node representations remain distinct at finite dept...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13920/)
-
----
-
-## [Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement]({{ site.baseurl }}/papers/2609.13406/)
-
-**2026-09-11** · Hongyao Tang et al. 
-
-When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13406/)
-
----
-
-## [Learning-Augmented Optimization for Strategic Two-Echelon Spare Parts Network Design]({{ site.baseurl }}/papers/2609.12524/)
-
-**2026-09-11** · Donato Maragno et al. 
-
-We study the strategic design of a two-echelon spare-parts inventory network where evaluating each candidate topology requires an expensive inventory optimization model. The design partitions hundreds of sites into feasible clusters and selects a central replenishment site for each cluster to reduce...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12524/)
-
----
-
-## [What an odour descriptor corpus can and cannot measure: valence, attenuation, and the ceiling of the public record]({{ site.baseurl }}/papers/2609.12875/)
-
-**2026-09-11** · Stylianos Kampakis et al. 
-
-Machine olfaction trains on pooled public descriptor corpora, but whether a shared descriptor word measures the same thing across corpora has not been tested, nor has the ceiling of what any of them can measure.   We audit four corpora from Pyrfume. Conditioning on the molecule makes McNemar's test ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12875/)
-
----
-
-## [InRTL: Effective Intra-Inter Interaction Learning for Relational Tables]({{ site.baseurl }}/papers/2609.12712/)
-
-**2026-09-11** · Weichen Li et al. 
-
-Relational table learning has recently emerged as an important research direction for modeling multiple tables connected through primary key-foreign key (PK-FK) relationships. Despite recent advances, a principled modeling framework tailored to this task remains underexplored. In this paper, we prop...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12712/)
-
----
-
-## [Asclepius: An Adaptive Harness for Long-Horizon Clinical Agents]({{ site.baseurl }}/papers/2609.13543/)
-
-**2026-09-11** · Grace Chang Yuan et al. 
-
-LLM agents are predominantly benchmarked on short, single-task trajectories, yet real deployments run for hours under contention, surfacing a different class of failures. We use the Clinical Environment Simulator (CES), in which an agent manages an entire emergency-department shift under continuous ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.13543/)
-
----
-
-## [BlueLM-GUI Technical Report: A Real-Device-Centric Flywheel for Self-Improving Mobile GUI Agents]({{ site.baseurl }}/papers/2609.12394/)
-
-**2026-09-11** · Tong Ye et al. 
-
-Mobile GUI agents are shifting from multi-module frameworks to native models trained end-to-end, yet industrial deployment faces three persistent gaps. Sandbox training produces a distribution mismatch with production environments; expensive real-device failures remain underutilized; and fixed bench...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12394/)
-
----
-
-## [EvoRS: On-Policy Self-Evolution of Reward Systems for Open-Ended Reinforcement Learning]({{ site.baseurl }}/papers/2609.12459/)
-
-**2026-09-11** · Weiyuan Li et al. 
-
-Open-ended reinforcement learning often relies on rubric-based rewards for tasks without directly verifiable answers. Yet the policy and reward system form a dynamic feedback loop: as the policy optimizes the current reward, an initially useful reward system may become unreliable due to reward hacki...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12459/)
-
----
-
-## [Cognition on Graph: Navigating Massive Knowledge Space via Cognitive Cycles and Bidirectional Graph-Text Synergy]({{ site.baseurl }}/papers/2609.12791/)
-
-**2026-09-11** · Gengxian Zhou et al. 
-
-Retrieval-Augmented Generation (RAG) has empowered Large Language Models (LLMs) to tackle knowledge-intensive tasks. However, navigating global, heterogeneous knowledge bases (large-scale knowledge graphs and text corpora) for complex reasoning remains a challenge. Existing methods typically employ ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12791/)
-
----
-
-## [Predicting Collision Cross Sections with GRACE: Geometric Residual Adduct Conditioning via Early-fusion]({{ site.baseurl }}/papers/2609.12223/)
-
-**2026-09-10** · Parthasarathy Suryanarayanan et al. 
-
-Collision cross section (CCS), derived from ion mobility mass spectrometry, is a common descriptor for molecular annotation. Prediction is challenging for machine learning models because it reflects the size, shape, and ionization state of a gas-phase molecular ion. Most predictors either ignore exp...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12223/)
-
----
-
-## [Receiver-Surface Hit Patterns via Legendre Approximation for Molecular Signal Detection]({{ site.baseurl }}/papers/2609.12089/)
-
-**2026-09-10** · Yasin Bastug et al. 
-
-Detecting whether a transmitter is actively communicating with a receiver is a fundamental problem in molecular communications. A spherical receiver may measure not only the number and arrival times of absorbed molecules, but also their absorption locations on the receiver surface. These locations c...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12089/)
-
----
-
-## [Procedural Graphs: Self-Evolving Execution Structures for LLM Agents]({{ site.baseurl }}/papers/2609.09153/)
-
-**2026-09-08** · Yuxing Lu et al. 
-
-Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con...
-
-[Read more →]({{ site.baseurl }}/papers/2609.09153/)
-
----
-
-## [SkillAdam: Stable and Efficient Skill Evolution for Agents]({{ site.baseurl }}/papers/2609.08944/)
-
-**2026-09-08** · Gaoyuan Li et al. 
-
-Agent skills provide a lightweight way to equip frozen language-model agents with domain knowledge and procedural guidance, yet obtaining high-quality skills remains costly and difficult to scale. Expert-written skills require substantial human effort. Recent skill self-evolution methods automate an...
-
-[Read more →]({{ site.baseurl }}/papers/2609.08944/)
+[Read more →]({{ site.baseurl }}/papers/2609.10248/)
 
 ---
 
@@ -668,13 +388,13 @@ Large Language Models demonstrate remarkable proficiency in static reasoning, ye
 
 ---
 
-## [Safe Harness Self-Evolution: A Theoretical Analysis of Feasibility and Limits]({{ site.baseurl }}/papers/2609.08175/)
+## [SkillAdam: Stable and Efficient Skill Evolution for Agents]({{ site.baseurl }}/papers/2609.08944/)
 
-**2026-09-08** · Qianshu Cai et al. 
+**2026-09-08** · Gaoyuan Li et al. 
 
-Harness self-evolution is the process by which an agent modifies its prompts, tools, code, or orchestration in response to task feedback while keeping the underlying language model frozen, with changes persisting across subsequent tasks. We provide a systematic theoretical analysis of the feasibilit...
+Agent skills provide a lightweight way to equip frozen language-model agents with domain knowledge and procedural guidance, yet obtaining high-quality skills remains costly and difficult to scale. Expert-written skills require substantial human effort. Recent skill self-evolution methods automate an...
 
-[Read more →]({{ site.baseurl }}/papers/2609.08175/)
+[Read more →]({{ site.baseurl }}/papers/2609.08944/)
 
 ---
 
@@ -685,6 +405,36 @@ Harness self-evolution is the process by which an agent modifies its prompts, to
 While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essent...
 
 [Read more →]({{ site.baseurl }}/papers/2609.09113/)
+
+---
+
+## [Safe Harness Self-Evolution: A Theoretical Analysis of Feasibility and Limits]({{ site.baseurl }}/papers/2609.08175/)
+
+**2026-09-08** · Qianshu Cai et al. 
+
+Harness self-evolution is the process by which an agent modifies its prompts, tools, code, or orchestration in response to task feedback while keeping the underlying language model frozen, with changes persisting across subsequent tasks. We provide a systematic theoretical analysis of the feasibilit...
+
+[Read more →]({{ site.baseurl }}/papers/2609.08175/)
+
+---
+
+## [Procedural Graphs: Self-Evolving Execution Structures for LLM Agents]({{ site.baseurl }}/papers/2609.09153/)
+
+**2026-09-08** · Yuxing Lu et al. 
+
+Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which con...
+
+[Read more →]({{ site.baseurl }}/papers/2609.09153/)
+
+---
+
+## [AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation]({{ site.baseurl }}/papers/2609.08442/)
+
+**2026-09-08** · Shanwei Fan et al. 
+
+Aerial Vision-and-Language Navigation requires drones to follow natural-language instructions and navigate through complex urban environments. Accurate navigation relies on both local and global spatial information, which support immediate action grounding and long-horizon path planning, respectivel...
+
+[Read more →]({{ site.baseurl }}/papers/2609.08442/)
 
 ---
 
@@ -708,26 +458,6 @@ Modern LLM agents increasingly rely on reusable skills, yet as skill libraries s
 
 ---
 
-## [AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation]({{ site.baseurl }}/papers/2609.08442/)
-
-**2026-09-08** · Shanwei Fan et al. 
-
-Aerial Vision-and-Language Navigation requires drones to follow natural-language instructions and navigate through complex urban environments. Accurate navigation relies on both local and global spatial information, which support immediate action grounding and long-horizon path planning, respectivel...
-
-[Read more →]({{ site.baseurl }}/papers/2609.08442/)
-
----
-
-## [EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval]({{ site.baseurl }}/papers/2609.07194/)
-
-**2026-09-07** · Ivan Nasonov et al. 
-
-We present EmoMed - a multimodal medical consultation agent that adapts its responses based on users' emotional states while maintaining clinical accuracy. The system processes text and medical images, detects affect indicators (anxiety, confusion, urgency) from user input, and adjusts response tone...
-
-[Read more →]({{ site.baseurl }}/papers/2609.07194/)
-
----
-
 ## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
 
 **2026-09-07** · Xiaotang Feng et al. 
@@ -745,6 +475,16 @@ Closed-loop AI scientists can generate candidate designs at low marginal computa
 Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. Existing evaluations largely assess it by asking models to generate ideas from a static, curated set of reference papers. That passive setup departs fro...
 
 [Read more →]({{ site.baseurl }}/papers/2609.07611/)
+
+---
+
+## [EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval]({{ site.baseurl }}/papers/2609.07194/)
+
+**2026-09-07** · Ivan Nasonov et al. 
+
+We present EmoMed - a multimodal medical consultation agent that adapts its responses based on users' emotional states while maintaining clinical accuracy. The system processes text and medical images, detects affect indicators (anxiety, confusion, urgency) from user input, and adjusts response tone...
+
+[Read more →]({{ site.baseurl }}/papers/2609.07194/)
 
 ---
 
@@ -768,13 +508,13 @@ Existing benchmarks for autonomous AI scientists evaluate only final outputs---g
 
 ---
 
-## [CoSkill: Joint Reinforcement Learning of Reasoning and Meta-Skill Agents for Hierarchical Skill Evolution]({{ site.baseurl }}/papers/2609.04865/)
+## [From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents]({{ site.baseurl }}/papers/2609.04869/)
 
-**2026-09-04** · Jinyuan Feng et al. 
+**2026-09-04** · Longtao Hu et al. 
 
-Skill libraries improve the sample efficiency of agentic reinforcement learning (RL) by enabling large language model (LLM) agents to reuse procedural knowledge. Yet existing paradigms exhibit structural shortcomings: they either decouple skill evolution from policy optimization or instantiate meta-...
+Computer-use agents can execute increasingly complex tasks in graphical interfaces, but their interaction experience is typically transient: procedural knowledge acquired from one rollout is not systematically retained, refined, and reused in later tasks. Existing skill libraries provide external pr...
 
-[Read more →]({{ site.baseurl }}/papers/2609.04865/)
+[Read more →]({{ site.baseurl }}/papers/2609.04869/)
 
 ---
 
@@ -788,6 +528,16 @@ This Comment emerges from TPC26 (https://tpc26.org), a conference convening lead
 
 ---
 
+## [CoSkill: Joint Reinforcement Learning of Reasoning and Meta-Skill Agents for Hierarchical Skill Evolution]({{ site.baseurl }}/papers/2609.04865/)
+
+**2026-09-04** · Jinyuan Feng et al. 
+
+Skill libraries improve the sample efficiency of agentic reinforcement learning (RL) by enabling large language model (LLM) agents to reuse procedural knowledge. Yet existing paradigms exhibit structural shortcomings: they either decouple skill evolution from policy optimization or instantiate meta-...
+
+[Read more →]({{ site.baseurl }}/papers/2609.04865/)
+
+---
+
 ## [Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models]({{ site.baseurl }}/papers/2609.05381/)
 
 **2026-09-04** · Matthias Busch et al. 
@@ -795,46 +545,6 @@ This Comment emerges from TPC26 (https://tpc26.org), a conference convening lead
 Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier models on 12 regression benchmarks for verbatim retrieval and find that it is wi...
 
 [Read more →]({{ site.baseurl }}/papers/2609.05381/)
-
----
-
-## [SQL-Zero: Self-Evolving Text-to-SQL]({{ site.baseurl }}/papers/2609.04697/)
-
-**2026-09-04** · Daniel Machado Pedrozo et al. 
-
-Training a competitive Text-to-SQL agent usually depends on human-annotated natural-language/SQL pairs, which are expensive, domain-specific, and a bottleneck for scaling to new databases. We show it is possible to train a competitive solver with zero annotated pairs. We introduce SQL-Zero, a propos...
-
-[Read more →]({{ site.baseurl }}/papers/2609.04697/)
-
----
-
-## [From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents]({{ site.baseurl }}/papers/2609.04869/)
-
-**2026-09-04** · Longtao Hu et al. 
-
-Computer-use agents can execute increasingly complex tasks in graphical interfaces, but their interaction experience is typically transient: procedural knowledge acquired from one rollout is not systematically retained, refined, and reused in later tasks. Existing skill libraries provide external pr...
-
-[Read more →]({{ site.baseurl }}/papers/2609.04869/)
-
----
-
-## [Who Maintains Agent Skills? A Longitudinal Study of Human-Governed, AI-Assisted Skill Maintenance]({{ site.baseurl }}/papers/2609.05677/)
-
-**2026-09-04** · Chen Shen et al. 
-
-Lifelong LLM agents increasingly rely on external skill artifacts as one element for preserving and reusing capabilities over time. These skills (usually portable Markdown files such as SKILL.md) describe when and how to apply a capability and must be corrected, expanded, and consolidated as tools a...
-
-[Read more →]({{ site.baseurl }}/papers/2609.05677/)
-
----
-
-## [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation]({{ site.baseurl }}/papers/2609.03753/)
-
-**2026-09-03** · Qi Liu et al. 
-
-Cumulative culture enables humans to preserve, reuse, and extend knowledge and skills across experiences and generations. Inspired by this principle, we introduce \textit{SimSkill}, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill continually ide...
-
-[Read more →]({{ site.baseurl }}/papers/2609.03753/)
 
 ---
 
@@ -858,13 +568,13 @@ Large language models deployed in high-stakes settings frequently generate plaus
 
 ---
 
-## [MASkills: Continual Skills Optimization for Multi-Agent LLM Systems]({{ site.baseurl }}/papers/2609.02094/)
+## [SimSkill: A Self-Evolving LLM Agent for Skill and Knowledge Accumulation in Traffic Simulation]({{ site.baseurl }}/papers/2609.03753/)
 
-**2026-09-02** · Huaiyuan Yao et al. 
+**2026-09-03** · Qi Liu et al. 
 
-LLM-based multi-agent systems have shown strong performance on complex tasks, yet continual improvement from interaction experience remains challenging. Existing self-reflection methods build experience memories, but memories are mostly hard to invoke, refine, or scale, while agent skills offer a mo...
+Cumulative culture enables humans to preserve, reuse, and extend knowledge and skills across experiences and generations. Inspired by this principle, we introduce \textit{SimSkill}, a self-evolving agent built around the Simulation of Urban MObility (SUMO) traffic simulator. SimSkill continually ide...
 
-[Read more →]({{ site.baseurl }}/papers/2609.02094/)
+[Read more →]({{ site.baseurl }}/papers/2609.03753/)
 
 ---
 
@@ -875,6 +585,16 @@ LLM-based multi-agent systems have shown strong performance on complex tasks, ye
 Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still leaves domain-specific know-how outside the agent. We call this missing layer op...
 
 [Read more →]({{ site.baseurl }}/papers/2609.02749/)
+
+---
+
+## [MASkills: Continual Skills Optimization for Multi-Agent LLM Systems]({{ site.baseurl }}/papers/2609.02094/)
+
+**2026-09-02** · Huaiyuan Yao et al. 
+
+LLM-based multi-agent systems have shown strong performance on complex tasks, yet continual improvement from interaction experience remains challenging. Existing self-reflection methods build experience memories, but memories are mostly hard to invoke, refine, or scale, while agent skills offer a mo...
+
+[Read more →]({{ site.baseurl }}/papers/2609.02094/)
 
 ---
 
@@ -898,26 +618,6 @@ Protein inverse folding aims to recover amino acid sequences for a given 3D prot
 
 ---
 
-## [SCAFFOLD: Self-Improving Web Agents via Recursive Parametric Skill Abstraction]({{ site.baseurl }}/papers/2609.05511/)
-
-**2026-08-31** · Bowei He et al. 
-
-Web agents need to navigate visually rich, long-horizon interfaces that change across sites, yet most previous agents still learn each task in isolation and discard the procedural knowledge they accumulate. Recent skill-augmented frameworks take an important first step, but they treat the skill libr...
-
-[Read more →]({{ site.baseurl }}/papers/2609.05511/)
-
----
-
-## [Dr. Claw: An AI Scientist Workspace for Vibe Research]({{ site.baseurl }}/papers/2609.00365/)
-
-**2026-08-31** · Dingjie Song et al. 
-
-Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preserved. We present Dr. C...
-
-[Read more →]({{ site.baseurl }}/papers/2609.00365/)
-
----
-
 ## [An Agentic Retrobiosynthesis Framework with Learned Frontier Selection]({{ site.baseurl }}/papers/2608.30702/)
 
 **2026-08-31** · Philippe Meyer et al. 
@@ -935,6 +635,16 @@ Large language models are increasingly used as agents for multistep retrosynthes
 Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using that understanding to design better experiments. We introduce science sandboxes, a framework for studying this capability in AI agents through repeated cycles of experimentation,...
 
 [Read more →]({{ site.baseurl }}/papers/2608.30165/)
+
+---
+
+## [Dr. Claw: An AI Scientist Workspace for Vibe Research]({{ site.baseurl }}/papers/2609.00365/)
+
+**2026-08-31** · Dingjie Song et al. 
+
+Command-line coding agents (e.g., Claude Code, Gemini CLI) can already read and write files and sustain long sessions, yet end-to-end research still fragments across chat tools, IDEs, terminals, and writing environments, and the decisions that make it auditable are rarely preserved. We present Dr. C...
+
+[Read more →]({{ site.baseurl }}/papers/2609.00365/)
 
 ---
 
@@ -958,16 +668,6 @@ Recent AI systems promise autonomous scientific discovery, claiming to discover 
 
 ---
 
-## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
-
-**2026-08-29** · Yifan Feng et al. 
-
-Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
-
-[Read more →]({{ site.baseurl }}/papers/2608.29207/)
-
----
-
 ## [Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis]({{ site.baseurl }}/papers/2608.28990/)
 
 **2026-08-29** · Runyu Guan et al. 
@@ -978,23 +678,13 @@ Protein co-abundance clusters preserved across tissues can reveal shared disease
 
 ---
 
-## [MAIL: Memory-driven, Adaptive, Incremental, and Literature-grounded Framework for Hypothesis Generation in Chemistry]({{ site.baseurl }}/papers/2608.28315/)
+## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
 
-**2026-08-28** · Mahdi Babaei et al. 
+**2026-08-29** · Yifan Feng et al. 
 
-The ever-expanding volume of the chemical literature offers unprecedented opportunities to generate novel and impactful hypotheses. However, the bottleneck lies in efficiently navigating this vast knowledge base to formulate high-quality, experimentally meaningful insights.   While Large Language Mo...
+Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
 
-[Read more →]({{ site.baseurl }}/papers/2608.28315/)
-
----
-
-## [AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design]({{ site.baseurl }}/papers/2608.26747/)
-
-**2026-08-27** · Mingquan Liu et al. 
-
-Scientific LLM agents have shown promise in literature reasoning, tool use, and experiment planning, but it remains unclear whether they can autonomously improve large, tightly coupled scientific machine-learning systems through executable code changes and computationally expensive validation. We st...
-
-[Read more →]({{ site.baseurl }}/papers/2608.26747/)
+[Read more →]({{ site.baseurl }}/papers/2608.29207/)
 
 ---
 
@@ -1005,6 +695,16 @@ Scientific LLM agents have shown promise in literature reasoning, tool use, and 
 LLM agents used for scientific experimentation must do more than generate executable code: they must implement the reference method faithfully, design experiments that test the paper's claims, and provide evidence supporting those claims. We show that agents often produce methodological hallucinatio...
 
 [Read more →]({{ site.baseurl }}/papers/2608.26753/)
+
+---
+
+## [AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design]({{ site.baseurl }}/papers/2608.26747/)
+
+**2026-08-27** · Mingquan Liu et al. 
+
+Scientific LLM agents have shown promise in literature reasoning, tool use, and experiment planning, but it remains unclear whether they can autonomously improve large, tightly coupled scientific machine-learning systems through executable code changes and computationally expensive validation. We st...
+
+[Read more →]({{ site.baseurl }}/papers/2608.26747/)
 
 ---
 
@@ -1078,16 +778,6 @@ We present a survey of the past and future of AI Scientists: machines capable of
 
 ---
 
-## [Training AI Scientists to Replicate Research]({{ site.baseurl }}/papers/2608.13331/)
-
-**2026-08-13** · Damon Falck et al. 
-
-The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hypothesis-driven explo...
-
-[Read more →]({{ site.baseurl }}/papers/2608.13331/)
-
----
-
 ## [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist]({{ site.baseurl }}/papers/2608.13558/)
 
 **2026-08-13** · Bobo Li et al. 
@@ -1098,13 +788,13 @@ Recent advances in foundation models have enabled AI scientists to automate incr
 
 ---
 
-## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
+## [Training AI Scientists to Replicate Research]({{ site.baseurl }}/papers/2608.13331/)
 
-**2026-08-12** · Bingsen Xue et al. 
+**2026-08-13** · Damon Falck et al. 
 
-Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
+The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hypothesis-driven explo...
 
-[Read more →]({{ site.baseurl }}/papers/2608.14720/)
+[Read more →]({{ site.baseurl }}/papers/2608.13331/)
 
 ---
 
@@ -1118,6 +808,16 @@ AI models are increasingly used in scientific discovery and human decision-makin
 
 ---
 
+## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
+
+**2026-08-12** · Bingsen Xue et al. 
+
+Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
+
+[Read more →]({{ site.baseurl }}/papers/2608.14720/)
+
+---
+
 ## [AI Scientist Mission Control (AIMC): Visual Analytics for Human Oversight of Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2608.28637/)
 
 **2026-08-10** · Rikathi Pal et al. 
@@ -1125,16 +825,6 @@ AI models are increasingly used in scientific discovery and human decision-makin
 Autonomous scientific discovery systems can generate large numbers of research ideas, experiments, and manuscripts with minimal human intervention. As these systems become increasingly capable, scientists require effective mechanisms to monitor output quality, identify recurring failure modes, under...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28637/)
-
----
-
-## [CAi Copilot: Reducing Operational Workload in Molecular Design through Intent-Driven Agentic Workflows]({{ site.baseurl }}/papers/2608.06961/)
-
-**2026-08-07** · Zhu Wang et al. 
-
-Early-stage molecular design is an iterative process, not just a task of generating molecules. Researchers turn broad goals into design strategies, refine candidates, assess many properties, and gather evidence before synthesis and tests. AI methods can generate molecules, optimize several goals, pr...
-
-[Read more →]({{ site.baseurl }}/papers/2608.06961/)
 
 ---
 
@@ -1148,13 +838,13 @@ The total synthesis of a complex molecule is among the most demanding intellectu
 
 ---
 
-## [Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning]({{ site.baseurl }}/papers/2608.04457/)
+## [CAi Copilot: Reducing Operational Workload in Molecular Design through Intent-Driven Agentic Workflows]({{ site.baseurl }}/papers/2608.06961/)
 
-**2026-08-05** · Hans-Martin Will et al. 
+**2026-08-07** · Zhu Wang et al. 
 
-As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP), systems relying on ephemeral scripts will fail. The sheer scale of stateful, interconnected evidence requires a machine-walkable warranty grounded in a purpose-built database architecture. Eigenius is an open-source, t...
+Early-stage molecular design is an iterative process, not just a task of generating molecules. Researchers turn broad goals into design strategies, refine candidates, assess many properties, and gather evidence before synthesis and tests. AI methods can generate molecules, optimize several goals, pr...
 
-[Read more →]({{ site.baseurl }}/papers/2608.04457/)
+[Read more →]({{ site.baseurl }}/papers/2608.06961/)
 
 ---
 
@@ -1165,6 +855,16 @@ As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP)
 An AI scientist should not grade its own homework. Yet in the systems we examined, the agent that reviews the work usually comes from the same model family as the agent that produced it, or at least from the same vendor. Model evaluators are known to favour their own generations. Whether models trai...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28631/)
+
+---
+
+## [Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning]({{ site.baseurl }}/papers/2608.04457/)
+
+**2026-08-05** · Hans-Martin Will et al. 
+
+As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP), systems relying on ephemeral scripts will fail. The sheer scale of stateful, interconnected evidence requires a machine-walkable warranty grounded in a purpose-built database architecture. Eigenius is an open-source, t...
+
+[Read more →]({{ site.baseurl }}/papers/2608.04457/)
 
 ---
 
@@ -1248,16 +948,6 @@ Structure-based drug design (SBDD) leverages the 3D structure of protein targets
 
 ---
 
-## [SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery]({{ site.baseurl }}/papers/2607.16038/)
-
-**2026-07-17** ·  SciForge Team et al. 
-
-Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assistants rarely preserve these objects as a coherent, auditable research state. We present SciForge, a mu...
-
-[Read more →]({{ site.baseurl }}/papers/2607.16038/)
-
----
-
 ## [S1-Omni: A Unified Multimodal Reasoning Model for Scientific Understanding, Prediction, and Generation]({{ site.baseurl }}/papers/2607.15686/)
 
 **2026-07-17** · Jiahao Zhao et al. 
@@ -1265,6 +955,16 @@ Scientific work increasingly spans heterogeneous artifacts -- papers, code, data
 We present S1-Omni, a unified multimodal reasoning model for scientific understanding, prediction, and generation. AI for Science (AI4S) has advanced significantly through domain-specific models, tool-augmented LLMs, and scientific language models. However, model capabilities remain highly fragmente...
 
 [Read more →]({{ site.baseurl }}/papers/2607.15686/)
+
+---
+
+## [SciForge: An AI-Native, Multimodal Workbench for Scientific Discovery]({{ site.baseurl }}/papers/2607.16038/)
+
+**2026-07-17** ·  SciForge Team et al. 
+
+Scientific work increasingly spans heterogeneous artifacts -- papers, code, datasets, scientific file formats, model outputs, figures, manuscripts, and team decisions -- yet general-purpose AI assistants rarely preserve these objects as a coherent, auditable research state. We present SciForge, a mu...
+
+[Read more →]({{ site.baseurl }}/papers/2607.16038/)
 
 ---
 
@@ -1278,16 +978,6 @@ Multi-step retrosynthesis planning seeks to decompose a target molecule into com
 
 ---
 
-## [TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology]({{ site.baseurl }}/papers/2607.08803/)
-
-**2026-07-09** · Hyunjin Seo et al. 
-
-The push toward large language models for biology (BioLM) has created a need for training corpora that can endow models with a genuine understanding of biology. However, existing biological resources, such as molecular databases, protein repositories, genomic annotations, single-cell atlases, and pa...
-
-[Read more →]({{ site.baseurl }}/papers/2607.08803/)
-
----
-
 ## [DrugGen 2: A disease-aware language model for enhancing drug discovery]({{ site.baseurl }}/papers/2607.08404/)
 
 **2026-07-09** · Ali Motahharynia et al. 
@@ -1295,6 +985,16 @@ The push toward large language models for biology (BioLM) has created a need for
 Current computational approaches for drug design typically focus on generating molecules conditioned on specific targets or general molecular properties, often neglecting the influence of disease context on target behavior and therapeutic outcomes. To address this gap, we introduce DrugGen-2, a nove...
 
 [Read more →]({{ site.baseurl }}/papers/2607.08404/)
+
+---
+
+## [TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology]({{ site.baseurl }}/papers/2607.08803/)
+
+**2026-07-09** · Hyunjin Seo et al. 
+
+The push toward large language models for biology (BioLM) has created a need for training corpora that can endow models with a genuine understanding of biology. However, existing biological resources, such as molecular databases, protein repositories, genomic annotations, single-cell atlases, and pa...
+
+[Read more →]({{ site.baseurl }}/papers/2607.08803/)
 
 ---
 
