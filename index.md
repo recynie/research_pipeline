@@ -5,8 +5,98 @@ title: "AI Research Daily"
 
 # AI Research — Daily Paper Digest
 
-**2026-09-19** — 72 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
+**2026-09-20** — 79 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
 
+
+## [Graph Neural Networks for Influence Maximization in Social Networks: An Unsupervised Minimum Dominating Set Approach]({{ site.baseurl }}/papers/2609.13836/)
+
+**2026-09-12** · Erfan Ahmadi et al. 
+
+The Minimum Dominating Set (MDS) problem is a classic NP-hard combinatorial optimization problem with critical applications in social network analysis, including viral marketing, influence maximization, public health interventions, and information dissemination. Identifying a minimal set of influent...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13836/)
+
+---
+
+## [RA-CoA: Training-free Fashion Image Captioning via Retrieval-Augmented Chain-of-Attributes]({{ site.baseurl }}/papers/2609.14100/)
+
+**2026-09-12** · Abhirama Subramanyam Penamakuri et al. 
+
+Fashion Image Captioning (FIC) plays a vital role in enhancing user experience and product search in e-commerce platforms. Unlike natural scene image captioning, FIC requires fine-grained visual reasoning and knowledge of domain-specific terminology to capture subtle attributes such as neckline and ...
+
+[Read more →]({{ site.baseurl }}/papers/2609.14100/)
+
+---
+
+## [Enhancing Event Candidate Acquisition for Event Linking]({{ site.baseurl }}/papers/2609.13670/)
+
+**2026-09-12** · Ziyang Zhang et al. 
+
+Event linking associates event mentions in text with entries in a knowledge base (KB), or identifies them as out-of-KB events. Although existing methods use different architectures, candidate event acquisition can still be weakened by short ambiguous mentions, noisy arguments, and evidence that is u...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13670/)
+
+---
+
+## [Online Bayesian Node Classification on Inductive Graphs under Distribution Shift]({{ site.baseurl }}/papers/2609.13655/)
+
+**2026-09-12** · Jinwen Xu et al. 
+
+On evolving graphs, node classifiers must satisfy two key requirements: inductive generalization to newly arriving nodes under distribution shift and calibrated uncertainty for safety-sensitive applications. Standard graph neural networks (GNNs) are typically trained once and address neither require...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13655/)
+
+---
+
+## [Finite-Time Node Separation in Recurrent Graph Neural Networks with Persistent Gaussian Perturbations]({{ site.baseurl }}/papers/2609.13920/)
+
+**2026-09-12** · Mostafa Haghir Chehreghani et al. 
+
+Persistent Gaussian perturbations have been shown to prevent asymptotic oversmoothing in recurrent Graph Neural Networks (GNNs) by ensuring a positive stationary Dirichlet energy. However, this global energy bound does not guarantee that individual node representations remain distinct at finite dept...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13920/)
+
+---
+
+## [Machine Learning in Fish Farming]({{ site.baseurl }}/papers/2609.13919/)
+
+**2026-09-12** · Fearghal O'Donncha et al. 
+
+This chapter explores how machine learning (ML) is transforming aquaculture, with a particular focus on enhancing decision-making processes and improving operational efficiency. The chapter is structured to first introduce the challenges in aquaculture and the role of AI and then provide an overview...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13919/)
+
+---
+
+## [Semantic Knowledge Technologies: what the Semantic Web lost sight of, and what it never had]({{ site.baseurl }}/papers/2609.14121/)
+
+**2026-09-12** · Achille Zappa et al. 
+
+The Semantic Web set out to give information a machine-interpretable form so that software could integrate and reason over it. Its standards became scientific knowledge infrastructure, but the machine competence it promised did not follow, and the systems now answering questions over scientific know...
+
+[Read more →]({{ site.baseurl }}/papers/2609.14121/)
+
+---
+
+## [EvoRS: On-Policy Self-Evolution of Reward Systems for Open-Ended Reinforcement Learning]({{ site.baseurl }}/papers/2609.12459/)
+
+**2026-09-11** · Weiyuan Li et al. 
+
+Open-ended reinforcement learning often relies on rubric-based rewards for tasks without directly verifiable answers. Yet the policy and reward system form a dynamic feedback loop: as the policy optimizes the current reward, an initially useful reward system may become unreliable due to reward hacki...
+
+[Read more →]({{ site.baseurl }}/papers/2609.12459/)
+
+---
+
+## [Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement]({{ site.baseurl }}/papers/2609.13406/)
+
+**2026-09-11** · Hongyao Tang et al. 
+
+When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the...
+
+[Read more →]({{ site.baseurl }}/papers/2609.13406/)
+
+---
 
 ## [Learning-Augmented Optimization for Strategic Two-Echelon Spare Parts Network Design]({{ site.baseurl }}/papers/2609.12524/)
 
@@ -18,6 +108,16 @@ We study the strategic design of a two-echelon spare-parts inventory network whe
 
 ---
 
+## [Cognition on Graph: Navigating Massive Knowledge Space via Cognitive Cycles and Bidirectional Graph-Text Synergy]({{ site.baseurl }}/papers/2609.12791/)
+
+**2026-09-11** · Gengxian Zhou et al. 
+
+Retrieval-Augmented Generation (RAG) has empowered Large Language Models (LLMs) to tackle knowledge-intensive tasks. However, navigating global, heterogeneous knowledge bases (large-scale knowledge graphs and text corpora) for complex reasoning remains a challenge. Existing methods typically employ ...
+
+[Read more →]({{ site.baseurl }}/papers/2609.12791/)
+
+---
+
 ## [InRTL: Effective Intra-Inter Interaction Learning for Relational Tables]({{ site.baseurl }}/papers/2609.12712/)
 
 **2026-09-11** · Weichen Li et al. 
@@ -25,6 +125,16 @@ We study the strategic design of a two-echelon spare-parts inventory network whe
 Relational table learning has recently emerged as an important research direction for modeling multiple tables connected through primary key-foreign key (PK-FK) relationships. Despite recent advances, a principled modeling framework tailored to this task remains underexplored. In this paper, we prop...
 
 [Read more →]({{ site.baseurl }}/papers/2609.12712/)
+
+---
+
+## [What an odour descriptor corpus can and cannot measure: valence, attenuation, and the ceiling of the public record]({{ site.baseurl }}/papers/2609.12875/)
+
+**2026-09-11** · Stylianos Kampakis et al. 
+
+Machine olfaction trains on pooled public descriptor corpora, but whether a shared descriptor word measures the same thing across corpora has not been tested, nor has the ceiling of what any of them can measure.   We audit four corpora from Pyrfume. Conditioning on the molecule makes McNemar's test ...
+
+[Read more →]({{ site.baseurl }}/papers/2609.12875/)
 
 ---
 
@@ -48,43 +158,23 @@ Mobile GUI agents are shifting from multi-module frameworks to native models tra
 
 ---
 
-## [Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement]({{ site.baseurl }}/papers/2609.13406/)
+## [VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents]({{ site.baseurl }}/papers/2609.11390/)
 
-**2026-09-11** · Hongyao Tang et al. 
+**2026-09-10** · Peiyuan Gao et al. 
 
-When we speak of recursive self-improvement (RSI), are we speaking of a phenomenon, a mechanism, or a prospect? Towards autonomous and evolving intelligence, RSI is being claimed at many scales, while no single framework that formally describes these emerging instances exists. Its counterpart in the...
+State-of-the-art retrieval-augmented generation (RAG) methods exploit document structures to acquire sufficient evidence, but often incur substantial token costs. To reduce structural-context tokens without compromising high RAG accuracy, we present {\sf VikingRAG}, a directory-aware semantic data m...
 
-[Read more →]({{ site.baseurl }}/papers/2609.13406/)
-
----
-
-## [EvoRS: On-Policy Self-Evolution of Reward Systems for Open-Ended Reinforcement Learning]({{ site.baseurl }}/papers/2609.12459/)
-
-**2026-09-11** · Weiyuan Li et al. 
-
-Open-ended reinforcement learning often relies on rubric-based rewards for tasks without directly verifiable answers. Yet the policy and reward system form a dynamic feedback loop: as the policy optimizes the current reward, an initially useful reward system may become unreliable due to reward hacki...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12459/)
+[Read more →]({{ site.baseurl }}/papers/2609.11390/)
 
 ---
 
-## [What an odour descriptor corpus can and cannot measure: valence, attenuation, and the ceiling of the public record]({{ site.baseurl }}/papers/2609.12875/)
+## [Predicting Collision Cross Sections with GRACE: Geometric Residual Adduct Conditioning via Early-fusion]({{ site.baseurl }}/papers/2609.12223/)
 
-**2026-09-11** · Stylianos Kampakis et al. 
+**2026-09-10** · Parthasarathy Suryanarayanan et al. 
 
-Machine olfaction trains on pooled public descriptor corpora, but whether a shared descriptor word measures the same thing across corpora has not been tested, nor has the ceiling of what any of them can measure.   We audit four corpora from Pyrfume. Conditioning on the molecule makes McNemar's test ...
+Collision cross section (CCS), derived from ion mobility mass spectrometry, is a common descriptor for molecular annotation. Prediction is challenging for machine learning models because it reflects the size, shape, and ionization state of a gas-phase molecular ion. Most predictors either ignore exp...
 
-[Read more →]({{ site.baseurl }}/papers/2609.12875/)
-
----
-
-## [Cognition on Graph: Navigating Massive Knowledge Space via Cognitive Cycles and Bidirectional Graph-Text Synergy]({{ site.baseurl }}/papers/2609.12791/)
-
-**2026-09-11** · Gengxian Zhou et al. 
-
-Retrieval-Augmented Generation (RAG) has empowered Large Language Models (LLMs) to tackle knowledge-intensive tasks. However, navigating global, heterogeneous knowledge bases (large-scale knowledge graphs and text corpora) for complex reasoning remains a challenge. Existing methods typically employ ...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12791/)
+[Read more →]({{ site.baseurl }}/papers/2609.12223/)
 
 ---
 
@@ -105,26 +195,6 @@ Self-evolving runtime harnesses can substantially improve the capabilities of la
 Chemistry, Manufacturing and Controls (CMC) process development generates an enormous body of technical information across a multi-stage, knowledge-intensive continuum from drug discovery to commercial manufacturing. This knowledge is traditionally fragmented across functions and heterogeneous forma...
 
 [Read more →]({{ site.baseurl }}/papers/2609.11493/)
-
----
-
-## [Predicting Collision Cross Sections with GRACE: Geometric Residual Adduct Conditioning via Early-fusion]({{ site.baseurl }}/papers/2609.12223/)
-
-**2026-09-10** · Parthasarathy Suryanarayanan et al. 
-
-Collision cross section (CCS), derived from ion mobility mass spectrometry, is a common descriptor for molecular annotation. Prediction is challenging for machine learning models because it reflects the size, shape, and ionization state of a gas-phase molecular ion. Most predictors either ignore exp...
-
-[Read more →]({{ site.baseurl }}/papers/2609.12223/)
-
----
-
-## [VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents]({{ site.baseurl }}/papers/2609.11390/)
-
-**2026-09-10** · Peiyuan Gao et al. 
-
-State-of-the-art retrieval-augmented generation (RAG) methods exploit document structures to acquire sufficient evidence, but often incur substantial token costs. To reduce structural-context tokens without compromising high RAG accuracy, we present {\sf VikingRAG}, a directory-aware semantic data m...
-
-[Read more →]({{ site.baseurl }}/papers/2609.11390/)
 
 ---
 
@@ -168,6 +238,16 @@ Aerial Vision-and-Language Navigation requires drones to follow natural-language
 
 ---
 
+## [EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval]({{ site.baseurl }}/papers/2609.07194/)
+
+**2026-09-07** · Ivan Nasonov et al. 
+
+We present EmoMed - a multimodal medical consultation agent that adapts its responses based on users' emotional states while maintaining clinical accuracy. The system processes text and medical images, detects affect indicators (anxiety, confusion, urgency) from user input, and adjusts response tone...
+
+[Read more →]({{ site.baseurl }}/papers/2609.07194/)
+
+---
+
 ## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
 
 **2026-09-07** · Xiaotang Feng et al. 
@@ -185,16 +265,6 @@ Closed-loop AI scientists can generate candidate designs at low marginal computa
 Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. Existing evaluations largely assess it by asking models to generate ideas from a static, curated set of reference papers. That passive setup departs fro...
 
 [Read more →]({{ site.baseurl }}/papers/2609.07611/)
-
----
-
-## [EmoMed: An Emotionally-Aware Agent for Multimodal Medical Support with Real-Time Information Retrieval]({{ site.baseurl }}/papers/2609.07194/)
-
-**2026-09-07** · Ivan Nasonov et al. 
-
-We present EmoMed - a multimodal medical consultation agent that adapts its responses based on users' emotional states while maintaining clinical accuracy. The system processes text and medical images, detects affect indicators (anxiety, confusion, urgency) from user input, and adjusts response tone...
-
-[Read more →]({{ site.baseurl }}/papers/2609.07194/)
 
 ---
 
@@ -218,16 +288,6 @@ We introduce ABLE, a benchmark for evaluating LLM agents' ability to use biologi
 
 ---
 
-## [The convergent laboratory: when AI reasoning, autonomous experiments, high performance and quantum computing reshape chemistry]({{ site.baseurl }}/papers/2609.05643/)
-
-**2026-09-04** · Eliu Huerta et al. 
-
-This Comment emerges from TPC26 (https://tpc26.org), a conference convening leaders from academia, national laboratories, and industry who are reshaping materials science discovery. The meeting explored how AI, autonomous agents, self-driving labs, higher performance and quantum computing converge t...
-
-[Read more →]({{ site.baseurl }}/papers/2609.05643/)
-
----
-
 ## [Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models]({{ site.baseurl }}/papers/2609.05381/)
 
 **2026-09-04** · Matthias Busch et al. 
@@ -248,6 +308,16 @@ Computer-use agents can execute increasingly complex tasks in graphical interfac
 
 ---
 
+## [The convergent laboratory: when AI reasoning, autonomous experiments, high performance and quantum computing reshape chemistry]({{ site.baseurl }}/papers/2609.05643/)
+
+**2026-09-04** · Eliu Huerta et al. 
+
+This Comment emerges from TPC26 (https://tpc26.org), a conference convening leaders from academia, national laboratories, and industry who are reshaping materials science discovery. The meeting explored how AI, autonomous agents, self-driving labs, higher performance and quantum computing converge t...
+
+[Read more →]({{ site.baseurl }}/papers/2609.05643/)
+
+---
+
 ## [CoSkill: Joint Reinforcement Learning of Reasoning and Meta-Skill Agents for Hierarchical Skill Evolution]({{ site.baseurl }}/papers/2609.04865/)
 
 **2026-09-04** · Jinyuan Feng et al. 
@@ -255,16 +325,6 @@ Computer-use agents can execute increasingly complex tasks in graphical interfac
 Skill libraries improve the sample efficiency of agentic reinforcement learning (RL) by enabling large language model (LLM) agents to reuse procedural knowledge. Yet existing paradigms exhibit structural shortcomings: they either decouple skill evolution from policy optimization or instantiate meta-...
 
 [Read more →]({{ site.baseurl }}/papers/2609.04865/)
-
----
-
-## [A computable representation of the physical laboratory enables verifiable workflows]({{ site.baseurl }}/papers/2609.03621/)
-
-**2026-09-03** · Xiaobo Li et al. 
-
-Making science computable requires representations of both scientific knowledge and the physical world in which scientific claims are tested. A computable representation of the physical laboratory is established through typed research objects, capability-bound operations and a compositional workflow...
-
-[Read more →]({{ site.baseurl }}/papers/2609.03621/)
 
 ---
 
@@ -285,6 +345,16 @@ Cumulative culture enables humans to preserve, reuse, and extend knowledge and s
 Large language models deployed in high-stakes settings frequently generate plausible but ungrounded claims. Standard retrieval-augmented generation (RAG) pipelines offer limited remedy, since they retrieve isolated passages without tracking cross-document evidence relationships or quantifying uncert...
 
 [Read more →]({{ site.baseurl }}/papers/2609.04442/)
+
+---
+
+## [A computable representation of the physical laboratory enables verifiable workflows]({{ site.baseurl }}/papers/2609.03621/)
+
+**2026-09-03** · Xiaobo Li et al. 
+
+Making science computable requires representations of both scientific knowledge and the physical world in which scientific claims are tested. A computable representation of the physical laboratory is established through typed research objects, capability-bound operations and a compositional workflow...
+
+[Read more →]({{ site.baseurl }}/papers/2609.03621/)
 
 ---
 
@@ -328,13 +398,13 @@ Protein inverse folding aims to recover amino acid sequences for a given 3D prot
 
 ---
 
-## [CoMPASS: Collaborative Molecular Property Prediction via Adaptive Small-Large Model Synergy]({{ site.baseurl }}/papers/2608.30674/)
+## [An Agentic Retrobiosynthesis Framework with Learned Frontier Selection]({{ site.baseurl }}/papers/2608.30702/)
 
-**2026-08-31** · Wentao Li et al. 
+**2026-08-31** · Philippe Meyer et al. 
 
-Accurate molecular property prediction requires both statistical reliability and chemical reasoning. Graph neural networks can be calibrated directly on labeled assays but remain limited by the coverage of their training data. Large language models (LLMs) can compare molecular evidence and articulat...
+Large language models are increasingly used as agents for multistep retrosynthesis, raising the question of how much their search policy contributes independently of the underlying reaction model. We investigate this question in a biological setting through rule-based retrobiosynthesis: a determinis...
 
-[Read more →]({{ site.baseurl }}/papers/2608.30674/)
+[Read more →]({{ site.baseurl }}/papers/2608.30702/)
 
 ---
 
@@ -348,13 +418,13 @@ Scientific progress depends not only on finding solutions, but on learning the r
 
 ---
 
-## [An Agentic Retrobiosynthesis Framework with Learned Frontier Selection]({{ site.baseurl }}/papers/2608.30702/)
+## [CoMPASS: Collaborative Molecular Property Prediction via Adaptive Small-Large Model Synergy]({{ site.baseurl }}/papers/2608.30674/)
 
-**2026-08-31** · Philippe Meyer et al. 
+**2026-08-31** · Wentao Li et al. 
 
-Large language models are increasingly used as agents for multistep retrosynthesis, raising the question of how much their search policy contributes independently of the underlying reaction model. We investigate this question in a biological setting through rule-based retrobiosynthesis: a determinis...
+Accurate molecular property prediction requires both statistical reliability and chemical reasoning. Graph neural networks can be calibrated directly on labeled assays but remain limited by the coverage of their training data. Large language models (LLMs) can compare molecular evidence and articulat...
 
-[Read more →]({{ site.baseurl }}/papers/2608.30702/)
+[Read more →]({{ site.baseurl }}/papers/2608.30674/)
 
 ---
 
@@ -368,16 +438,6 @@ Recent AI systems promise autonomous scientific discovery, claiming to discover 
 
 ---
 
-## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
-
-**2026-08-29** · Yifan Feng et al. 
-
-Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
-
-[Read more →]({{ site.baseurl }}/papers/2608.29207/)
-
----
-
 ## [Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis]({{ site.baseurl }}/papers/2608.28990/)
 
 **2026-08-29** · Runyu Guan et al. 
@@ -385,6 +445,16 @@ Protein structure modeling rests on a single computational primitive: the intera
 Protein co-abundance clusters preserved across tissues can reveal shared disease mechanisms and candidate therapeutic targets, particularly when proteins implicated in organ-confined diseases converge in peripheral or accessible tissues. However, previous cross-tissue studies have focused on biologi...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28990/)
+
+---
+
+## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
+
+**2026-08-29** · Yifan Feng et al. 
+
+Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
+
+[Read more →]({{ site.baseurl }}/papers/2608.29207/)
 
 ---
 
@@ -478,16 +548,6 @@ We present a survey of the past and future of AI Scientists: machines capable of
 
 ---
 
-## [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist]({{ site.baseurl }}/papers/2608.13558/)
-
-**2026-08-13** · Bobo Li et al. 
-
-Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...
-
-[Read more →]({{ site.baseurl }}/papers/2608.13558/)
-
----
-
 ## [Training AI Scientists to Replicate Research]({{ site.baseurl }}/papers/2608.13331/)
 
 **2026-08-13** · Damon Falck et al. 
@@ -498,13 +558,13 @@ The replicability of papers is a cornerstone of scientific knowledge, ensuring t
 
 ---
 
-## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
+## [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist]({{ site.baseurl }}/papers/2608.13558/)
 
-**2026-08-12** · Bingsen Xue et al. 
+**2026-08-13** · Bobo Li et al. 
 
-Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
+Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depend...
 
-[Read more →]({{ site.baseurl }}/papers/2608.14720/)
+[Read more →]({{ site.baseurl }}/papers/2608.13558/)
 
 ---
 
@@ -518,6 +578,16 @@ AI models are increasingly used in scientific discovery and human decision-makin
 
 ---
 
+## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
+
+**2026-08-12** · Bingsen Xue et al. 
+
+Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
+
+[Read more →]({{ site.baseurl }}/papers/2608.14720/)
+
+---
+
 ## [AI Scientist Mission Control (AIMC): Visual Analytics for Human Oversight of Autonomous Scientific Discovery]({{ site.baseurl }}/papers/2608.28637/)
 
 **2026-08-10** · Rikathi Pal et al. 
@@ -525,16 +595,6 @@ AI models are increasingly used in scientific discovery and human decision-makin
 Autonomous scientific discovery systems can generate large numbers of research ideas, experiments, and manuscripts with minimal human intervention. As these systems become increasingly capable, scientists require effective mechanisms to monitor output quality, identify recurring failure modes, under...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28637/)
-
----
-
-## [Strategy-first synthesis planning for complex natural products]({{ site.baseurl }}/papers/2608.07454/)
-
-**2026-08-07** · Daniel Armstrong et al. 
-
-The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also...
-
-[Read more →]({{ site.baseurl }}/papers/2608.07454/)
 
 ---
 
@@ -548,13 +608,13 @@ Early-stage molecular design is an iterative process, not just a task of generat
 
 ---
 
-## [Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning]({{ site.baseurl }}/papers/2608.04457/)
+## [Strategy-first synthesis planning for complex natural products]({{ site.baseurl }}/papers/2608.07454/)
 
-**2026-08-05** · Hans-Martin Will et al. 
+**2026-08-07** · Daniel Armstrong et al. 
 
-As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP), systems relying on ephemeral scripts will fail. The sheer scale of stateful, interconnected evidence requires a machine-walkable warranty grounded in a purpose-built database architecture. Eigenius is an open-source, t...
+The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also...
 
-[Read more →]({{ site.baseurl }}/papers/2608.04457/)
+[Read more →]({{ site.baseurl }}/papers/2608.07454/)
 
 ---
 
@@ -565,6 +625,16 @@ As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP)
 An AI scientist should not grade its own homework. Yet in the systems we examined, the agent that reviews the work usually comes from the same model family as the agent that produced it, or at least from the same vendor. Model evaluators are known to favour their own generations. Whether models trai...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28631/)
+
+---
+
+## [Eigenius: A Typed Knowledge-Graph DBMS with Epistemic Stratification and Institution-Mediated Reasoning]({{ site.baseurl }}/papers/2608.04457/)
+
+**2026-08-05** · Hans-Martin Will et al. 
+
+As "AI Scientists" emerge to drive research via the Model Context Protocol (MCP), systems relying on ephemeral scripts will fail. The sheer scale of stateful, interconnected evidence requires a machine-walkable warranty grounded in a purpose-built database architecture. Eigenius is an open-source, t...
+
+[Read more →]({{ site.baseurl }}/papers/2608.04457/)
 
 ---
 
@@ -608,16 +678,6 @@ Large language model agents have shown promising capabilities in data-driven sci
 
 ---
 
-## [Evaluating Agentic Bioinformatics through Function, Evidence, and Validation]({{ site.baseurl }}/papers/2607.27556/)
-
-**2026-07-30** · Phuc Pham et al. 
-
-Large language model agents increasingly plan, execute, and interpret biological analyses, yet fluent responses, successful tool calls, and benchmark performance alone do not establish scientific credibility. Existing reviews primarily organize biological agents by application, architecture, and age...
-
-[Read more →]({{ site.baseurl }}/papers/2607.27556/)
-
----
-
 ## [An AI Scientist that Doesn't Drift: Taste, Structure, and Falsifiable Findings in a Quadruped Navigation Research Loop]({{ site.baseurl }}/papers/2608.07542/)
 
 **2026-07-30** · Yiwen Zhang et al. 
@@ -625,6 +685,16 @@ Large language model agents increasingly plan, execute, and interpret biological
 Autonomous research loops driven by large language models can run machine-learning experiments at scale but tend to drift toward local refinements of whichever metric they optimise rather than testing the hypotheses that motivate the experiments. We address this structurally and present an AI Scient...
 
 [Read more →]({{ site.baseurl }}/papers/2608.07542/)
+
+---
+
+## [Evaluating Agentic Bioinformatics through Function, Evidence, and Validation]({{ site.baseurl }}/papers/2607.27556/)
+
+**2026-07-30** · Phuc Pham et al. 
+
+Large language model agents increasingly plan, execute, and interpret biological analyses, yet fluent responses, successful tool calls, and benchmark performance alone do not establish scientific credibility. Existing reviews primarily organize biological agents by application, architecture, and age...
+
+[Read more →]({{ site.baseurl }}/papers/2607.27556/)
 
 ---
 
