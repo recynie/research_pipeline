@@ -5,8 +5,28 @@ title: "AI Research Daily"
 
 # AI Research — Daily Paper Digest
 
-**2026-10-03** — 45 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
+**2026-10-04** — 47 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
 
+
+## [AutoPDEBench: Benchmarking LLM Auto-Research for Neural PDE Solver Design]({{ site.baseurl }}/papers/2609.32245/)
+
+**2026-09-26** · Ruoyan Li et al. 
+
+Partial differential equations (PDEs) are essential for modeling complex physical systems, and neural solvers have recently emerged as powerful data-driven tools for numerically solving them. However, existing neural solvers struggle with domain-specific challenges, such as varying parameters and hi...
+
+[Read more →]({{ site.baseurl }}/papers/2609.32245/)
+
+---
+
+## [SkillVine: Agent Skill Evolution via Branching Exploration]({{ site.baseurl }}/papers/2609.32731/)
+
+**2026-09-26** · Kaiwei Liu et al. 
+
+Agent skills encapsulate reusable procedural knowledge that enables LLM agents to perform tasks, and they can be improved automatically using trajectories from interactions with the environment. This is the classic problem of skill evolution. Existing approaches predominately follow a linear evoluti...
+
+[Read more →]({{ site.baseurl }}/papers/2609.32731/)
+
+---
 
 ## [Up and Down the Abstraction Ladder: Code-Based Skills for Language Agents]({{ site.baseurl }}/papers/2609.31076/)
 
@@ -18,16 +38,6 @@ Language agents struggle to act and learn in environments that require long sequ
 
 ---
 
-## [PFArena: Benchmarking Language Models for Protein Modification]({{ site.baseurl }}/papers/2609.28921/)
-
-**2026-09-24** · Yawen Ouyang et al. 
-
-Protein modification requires navigating an immense sequence space, yet wet-lab validation remains low-throughput and costly. Although computational paradigms including protein language models (PLMs), large language models (LLMs), and LLM-based agents have shown promise in protein modification, thei...
-
-[Read more →]({{ site.baseurl }}/papers/2609.28921/)
-
----
-
 ## [ASIRF: An Agentic Framework for Context-Dependent Sensitive Information Redaction]({{ site.baseurl }}/papers/2609.29191/)
 
 **2026-09-24** · Sudha Priyadarshini et al. 
@@ -35,6 +45,16 @@ Protein modification requires navigating an immense sequence space, yet wet-lab 
 Sensitive information is defined by domain and intent, not a universal category, yet redaction systems such as privacy filters and named-entity recognizers fix a taxonomy at training time, requiring retraining for each new domain. We introduce ASIRF (Agentic Sensitive Information Redaction Framework...
 
 [Read more →]({{ site.baseurl }}/papers/2609.29191/)
+
+---
+
+## [PFArena: Benchmarking Language Models for Protein Modification]({{ site.baseurl }}/papers/2609.28921/)
+
+**2026-09-24** · Yawen Ouyang et al. 
+
+Protein modification requires navigating an immense sequence space, yet wet-lab validation remains low-throughput and costly. Although computational paradigms including protein language models (PLMs), large language models (LLMs), and LLM-based agents have shown promise in protein modification, thei...
+
+[Read more →]({{ site.baseurl }}/papers/2609.28921/)
 
 ---
 
@@ -148,16 +168,6 @@ Chemistry, Manufacturing and Controls (CMC) process development generates an eno
 
 ---
 
-## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
-
-**2026-09-07** · Xiaotang Feng et al. 
-
-Closed-loop AI scientists can generate candidate designs at low marginal computational cost, whereas reliable feedback may require wet-lab synthesis, characterization, or high-fidelity computation. Addressing this imbalance through custom laboratory automation remains infrastructure-intensive and co...
-
-[Read more →]({{ site.baseurl }}/papers/2609.07655/)
-
----
-
 ## [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era]({{ site.baseurl }}/papers/2609.07611/)
 
 **2026-09-07** · Yunxiang Mo et al. 
@@ -168,13 +178,13 @@ Scientific ideation is the capacity to formulate novel and testable hypotheses f
 
 ---
 
-## [OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows]({{ site.baseurl }}/papers/2609.09203/)
+## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
 
-**2026-09-05** · Aayam Bansal et al. 
+**2026-09-07** · Xiaotang Feng et al. 
 
-Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic r...
+Closed-loop AI scientists can generate candidate designs at low marginal computational cost, whereas reliable feedback may require wet-lab synthesis, characterization, or high-fidelity computation. Addressing this imbalance through custom laboratory automation remains infrastructure-intensive and co...
 
-[Read more →]({{ site.baseurl }}/papers/2609.09203/)
+[Read more →]({{ site.baseurl }}/papers/2609.07655/)
 
 ---
 
@@ -185,6 +195,16 @@ Existing benchmarks for autonomous AI scientists evaluate only final outputs---g
 We introduce ABLE, a benchmark for evaluating LLM agents' ability to use biological AI models (BAIMs), such as ProteinMPNN and AlphaFold3, in dual-use protein design workflows. ABLE assesses agent performance through a set of tasks spanning structure retrieval, sequence generation, and design valida...
 
 [Read more →]({{ site.baseurl }}/papers/2609.05818/)
+
+---
+
+## [OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows]({{ site.baseurl }}/papers/2609.09203/)
+
+**2026-09-05** · Aayam Bansal et al. 
+
+Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic r...
+
+[Read more →]({{ site.baseurl }}/papers/2609.09203/)
 
 ---
 
@@ -218,13 +238,13 @@ Protein inverse folding aims to recover amino acid sequences for a given 3D prot
 
 ---
 
-## [Science sandboxes measure the scientific capability of AI agents]({{ site.baseurl }}/papers/2608.30165/)
+## [An Agentic Retrobiosynthesis Framework with Learned Frontier Selection]({{ site.baseurl }}/papers/2608.30702/)
 
-**2026-08-31** · Arya S. Rao et al. 
+**2026-08-31** · Philippe Meyer et al. 
 
-Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using that understanding to design better experiments. We introduce science sandboxes, a framework for studying this capability in AI agents through repeated cycles of experimentation,...
+Large language models are increasingly used as agents for multistep retrosynthesis, raising the question of how much their search policy contributes independently of the underlying reaction model. We investigate this question in a biological setting through rule-based retrobiosynthesis: a determinis...
 
-[Read more →]({{ site.baseurl }}/papers/2608.30165/)
+[Read more →]({{ site.baseurl }}/papers/2608.30702/)
 
 ---
 
@@ -238,13 +258,13 @@ Accurate molecular property prediction requires both statistical reliability and
 
 ---
 
-## [An Agentic Retrobiosynthesis Framework with Learned Frontier Selection]({{ site.baseurl }}/papers/2608.30702/)
+## [Science sandboxes measure the scientific capability of AI agents]({{ site.baseurl }}/papers/2608.30165/)
 
-**2026-08-31** · Philippe Meyer et al. 
+**2026-08-31** · Arya S. Rao et al. 
 
-Large language models are increasingly used as agents for multistep retrosynthesis, raising the question of how much their search policy contributes independently of the underlying reaction model. We investigate this question in a biological setting through rule-based retrobiosynthesis: a determinis...
+Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using that understanding to design better experiments. We introduce science sandboxes, a framework for studying this capability in AI agents through repeated cycles of experimentation,...
 
-[Read more →]({{ site.baseurl }}/papers/2608.30702/)
+[Read more →]({{ site.baseurl }}/papers/2608.30165/)
 
 ---
 
@@ -268,16 +288,6 @@ Specialized machine learning architectures encode structural assumptions (equiva
 
 ---
 
-## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
-
-**2026-08-29** · Yifan Feng et al. 
-
-Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
-
-[Read more →]({{ site.baseurl }}/papers/2608.29207/)
-
----
-
 ## [Agentic AI uncovers conserved cross-tissue protein co-abundance programs inaccessible to single-dataset analysis]({{ site.baseurl }}/papers/2608.28990/)
 
 **2026-08-29** · Runyu Guan et al. 
@@ -285,6 +295,16 @@ Protein structure modeling rests on a single computational primitive: the intera
 Protein co-abundance clusters preserved across tissues can reveal shared disease mechanisms and candidate therapeutic targets, particularly when proteins implicated in organ-confined diseases converge in peripheral or accessible tissues. However, previous cross-tissue studies have focused on biologi...
 
 [Read more →]({{ site.baseurl }}/papers/2608.28990/)
+
+---
+
+## [Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling]({{ site.baseurl }}/papers/2608.29207/)
+
+**2026-08-29** · Yifan Feng et al. 
+
+Protein structure modeling rests on a single computational primitive: the interaction between what a residue is (sequence content) and where it sits (three-dimensional geometry). What is the expressive limit of this layer class? We show that the complete bilinear operator over content-geometry outer...
+
+[Read more →]({{ site.baseurl }}/papers/2608.29207/)
 
 ---
 
@@ -378,16 +398,6 @@ We present a survey of the past and future of AI Scientists: machines capable of
 
 ---
 
-## [Training AI Scientists to Replicate Research]({{ site.baseurl }}/papers/2608.13331/)
-
-**2026-08-13** · Damon Falck et al. 
-
-The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hypothesis-driven explo...
-
-[Read more →]({{ site.baseurl }}/papers/2608.13331/)
-
----
-
 ## [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist]({{ site.baseurl }}/papers/2608.13558/)
 
 **2026-08-13** · Bobo Li et al. 
@@ -398,13 +408,13 @@ Recent advances in foundation models have enabled AI scientists to automate incr
 
 ---
 
-## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
+## [Training AI Scientists to Replicate Research]({{ site.baseurl }}/papers/2608.13331/)
 
-**2026-08-12** · Bingsen Xue et al. 
+**2026-08-13** · Damon Falck et al. 
 
-Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
+The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hypothesis-driven explo...
 
-[Read more →]({{ site.baseurl }}/papers/2608.14720/)
+[Read more →]({{ site.baseurl }}/papers/2608.13331/)
 
 ---
 
@@ -418,13 +428,13 @@ AI models are increasingly used in scientific discovery and human decision-makin
 
 ---
 
-## [Strategy-first synthesis planning for complex natural products]({{ site.baseurl }}/papers/2608.07454/)
+## [Multi-Agent Closed-Loop Reasoning for Organic Structure Elucidation from Multimodal Spectra]({{ site.baseurl }}/papers/2608.14720/)
 
-**2026-08-07** · Daniel Armstrong et al. 
+**2026-08-12** · Bingsen Xue et al. 
 
-The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also...
+Following the molecular discovery and synthesis revolutions, scalable automated structure elucidation from routine spectroscopic data remains an outstanding challenge. Despite decades of computational efforts, no existing system achieved reliable reasoning over unseen spectra. Here, we propose MACRO...
 
-[Read more →]({{ site.baseurl }}/papers/2608.07454/)
+[Read more →]({{ site.baseurl }}/papers/2608.14720/)
 
 ---
 
@@ -435,6 +445,16 @@ The total synthesis of a complex molecule is among the most demanding intellectu
 Early-stage molecular design is an iterative process, not just a task of generating molecules. Researchers turn broad goals into design strategies, refine candidates, assess many properties, and gather evidence before synthesis and tests. AI methods can generate molecules, optimize several goals, pr...
 
 [Read more →]({{ site.baseurl }}/papers/2608.06961/)
+
+---
+
+## [Strategy-first synthesis planning for complex natural products]({{ site.baseurl }}/papers/2608.07454/)
+
+**2026-08-07** · Daniel Armstrong et al. 
+
+The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also...
+
+[Read more →]({{ site.baseurl }}/papers/2608.07454/)
 
 ---
 
