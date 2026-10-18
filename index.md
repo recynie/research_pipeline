@@ -5,16 +5,16 @@ title: "AI Research Daily"
 
 # AI Research — Daily Paper Digest
 
-**2026-10-17** — 53 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
+**2026-10-18** — 54 new papers from arXiv. [📌 View favorites]({{ site.baseurl }}/favorites/) for archived papers.
 
 
-## [PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real]({{ site.baseurl }}/papers/2610.13296/)
+## [Co-adaptive Rule Routing and Constraining for Structured Knowledge Retrieval]({{ site.baseurl }}/papers/2610.14465/)
 
-**2026-10-09** · Cheuk Hei Chung et al. 
+**2026-10-10** · Zhisheng Qi et al. 
 
-High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, BGE) and generators (e.g., Self-RAG, GraphRAG), while reducing corpus-side repres...
+Structured knowledge retrieval acquires task-relevant evidence from structured knowledge sources for downstream tasks. Existing methods rely on unconstrained retrieval or predefined query-rule supervision, such as author-paper rules for scientific discovery and anatomy-drug rules for precision medic...
 
-[Read more →]({{ site.baseurl }}/papers/2610.13296/)
+[Read more →]({{ site.baseurl }}/papers/2610.14465/)
 
 ---
 
@@ -28,6 +28,16 @@ Question answering over large heterogeneous document collections requires first 
 
 ---
 
+## [PRIME: Pre-Retrieval Index Modeling Enhancement for Structured Document Retrieval-Real]({{ site.baseurl }}/papers/2610.13296/)
+
+**2026-10-09** · Cheuk Hei Chung et al. 
+
+High-precision retrieval over external knowledge bases is essential for LLM agents to operate effectively. However, existing Information Retrieval (IR) research primarily optimizes query-side retrievers (e.g., ColBERT, BGE) and generators (e.g., Self-RAG, GraphRAG), while reducing corpus-side repres...
+
+[Read more →]({{ site.baseurl }}/papers/2610.13296/)
+
+---
+
 ## [A Local Agentic AI Framework to Generate Edge Case Scenarios for Safety Assurance]({{ site.baseurl }}/papers/2610.13479/)
 
 **2026-10-09** · Victoria J. Hodge et al. 
@@ -35,16 +45,6 @@ Question answering over large heterogeneous document collections requires first 
 Generating edge case scenarios is crucial for training, testing and safety assuring autonomous systems. This identifies hazardous failures to increase system reliability and robustness, ensures the system can still function safely on the boundaries of its operational design domain and learns the exp...
 
 [Read more →]({{ site.baseurl }}/papers/2610.13479/)
-
----
-
-## [MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction]({{ site.baseurl }}/papers/2610.11312/)
-
-**2026-10-08** · Yulin Fu et al. 
-
-Large-scale construction of medical vision-language model (VLM) benchmarks is increasingly feasible with richly annotated imaging datasets and large language models (LLMs), yet existing automation largely focuses on generating evaluation items within predefined benchmark specifications. We study the...
-
-[Read more →]({{ site.baseurl }}/papers/2610.11312/)
 
 ---
 
@@ -58,6 +58,16 @@ The evolution of Large Language Model agents from single-task execution to long-
 
 ---
 
+## [Open-ended Scientific Discovery with Possibilistic Reasoning]({{ site.baseurl }}/papers/2610.11289/)
+
+**2026-10-08** · Anita Yang et al. 
+
+Autonomous scientific discovery with LLMs requires generating and testing hypotheses adaptively as evidence accumulates while maintaining statistical validity. Existing anytime-valid methods can handle data-dependent hypotheses, but open-ended discovery poses a deeper challenge: the best discovered ...
+
+[Read more →]({{ site.baseurl }}/papers/2610.11289/)
+
+---
+
 ## [EvoSim: Learning to Model, Modeling to Learn]({{ site.baseurl }}/papers/2610.11344/)
 
 **2026-10-08** · Yun-Wei Song et al. 
@@ -68,13 +78,23 @@ Physics-based models connect scientific explanation with quantitative prediction
 
 ---
 
-## [Open-ended Scientific Discovery with Possibilistic Reasoning]({{ site.baseurl }}/papers/2610.11289/)
+## [MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction]({{ site.baseurl }}/papers/2610.11312/)
 
-**2026-10-08** · Anita Yang et al. 
+**2026-10-08** · Yulin Fu et al. 
 
-Autonomous scientific discovery with LLMs requires generating and testing hypotheses adaptively as evidence accumulates while maintaining statistical validity. Existing anytime-valid methods can handle data-dependent hypotheses, but open-ended discovery poses a deeper challenge: the best discovered ...
+Large-scale construction of medical vision-language model (VLM) benchmarks is increasingly feasible with richly annotated imaging datasets and large language models (LLMs), yet existing automation largely focuses on generating evaluation items within predefined benchmark specifications. We study the...
 
-[Read more →]({{ site.baseurl }}/papers/2610.11289/)
+[Read more →]({{ site.baseurl }}/papers/2610.11312/)
+
+---
+
+## [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles]({{ site.baseurl }}/papers/2610.09832/)
+
+**2026-10-07** · Yuyao Ge et al. 
+
+Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks. Skills are one such form of memory, pairing instructions with an applicability condition over task types. However, retaining every skill indiscriminately as the policy improves lets obsolete ...
+
+[Read more →]({{ site.baseurl }}/papers/2610.09832/)
 
 ---
 
@@ -108,13 +128,23 @@ Drug discovery for neurological disease has traditionally centered on the molecu
 
 ---
 
-## [SkillForge: Co-Evolving Skills and Agents via Dynamic Skill Lifecycles]({{ site.baseurl }}/papers/2610.09832/)
+## [Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI]({{ site.baseurl }}/papers/2610.09146/)
 
-**2026-10-07** · Yuyao Ge et al. 
+**2026-10-06** · Yexiao He et al. 
 
-Memory-augmented reinforcement learning strengthens LLM agents' ability to solve complex long-horizon tasks. Skills are one such form of memory, pairing instructions with an applicability condition over task types. However, retaining every skill indiscriminately as the policy improves lets obsolete ...
+Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, updated guidelines, and new therapies can change established practice. Fine-tuni...
 
-[Read more →]({{ site.baseurl }}/papers/2610.09832/)
+[Read more →]({{ site.baseurl }}/papers/2610.09146/)
+
+---
+
+## [OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation]({{ site.baseurl }}/papers/2610.07787/)
+
+**2026-10-06** · Qi Cheng et al. 
+
+Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, producing a single fixed workflow per benchmark that ...
+
+[Read more →]({{ site.baseurl }}/papers/2610.07787/)
 
 ---
 
@@ -138,36 +168,6 @@ Assistants grounded in a small, frequently edited knowledge base can retrieve th
 
 ---
 
-## [Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station]({{ site.baseurl }}/papers/2610.08927/)
-
-**2026-10-06** · Wenyu Du et al. 
-
-Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multi...
-
-[Read more →]({{ site.baseurl }}/papers/2610.08927/)
-
----
-
-## [Frozen Models, Evolving Expertise: Model-Agnostic Learning from Deployment Experience for Multimodal Medical AI]({{ site.baseurl }}/papers/2610.09146/)
-
-**2026-10-06** · Yexiao He et al. 
-
-Large language models (LLMs) and vision-language models (VLMs) are usually frozen after deployment, so they do not learn from the cases they solve. This is especially concerning in medicine, where new clinical evidence, updated guidelines, and new therapies can change established practice. Fine-tuni...
-
-[Read more →]({{ site.baseurl }}/papers/2610.09146/)
-
----
-
-## [Humanize: Judgement Engineering for Agentic Coding]({{ site.baseurl }}/papers/2610.08900/)
-
-**2026-10-06** · Sihao Liu et al. 
-
-Agentic coding makes code generation cheap, but reliable completion remains difficult: the agent that writes the code is a weak judge of whether it is done.   We present Humanize, a multi-agent orchestration workflow for agentic coding built around judgement engineering: explicit, mechanically enfor...
-
-[Read more →]({{ site.baseurl }}/papers/2610.08900/)
-
----
-
 ## [CoDe-LoRA: Mitigating the Orthogonality Dilemma in Continual Learning of LLMs via Knowledge Consolidation and Decoupling]({{ site.baseurl }}/papers/2610.08312/)
 
 **2026-10-06** · Maoqi Liu et al. 
@@ -178,13 +178,23 @@ Continual learning (CL) is essential for Large Language Models (LLMs) to sequent
 
 ---
 
-## [OOPMAS: Object-Oriented Multi-Agent Systems for Query-Level Workflow Generation]({{ site.baseurl }}/papers/2610.07787/)
+## [Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station]({{ site.baseurl }}/papers/2610.08927/)
 
-**2026-10-06** · Qi Cheng et al. 
+**2026-10-06** · Wenyu Du et al. 
 
-Multi-agent systems (MAS) powered by large language models have shown strong performance across code generation, mathematical reasoning, and question answering. However, existing methods for automating MAS design mostly operate at the task level, producing a single fixed workflow per benchmark that ...
+Recent AI systems have made rapid progress in scientific discovery when given well-defined metrics, but whether they can autonomously undertake open-ended scientific discovery remains unclear. We investigate AI's ability to tackle open-ended tasks in Station, an open-world environment in which multi...
 
-[Read more →]({{ site.baseurl }}/papers/2610.07787/)
+[Read more →]({{ site.baseurl }}/papers/2610.08927/)
+
+---
+
+## [Humanize: Judgement Engineering for Agentic Coding]({{ site.baseurl }}/papers/2610.08900/)
+
+**2026-10-06** · Sihao Liu et al. 
+
+Agentic coding makes code generation cheap, but reliable completion remains difficult: the agent that writes the code is a weak judge of whether it is done.   We present Humanize, a multi-agent orchestration workflow for agentic coding built around judgement engineering: explicit, mechanically enfor...
+
+[Read more →]({{ site.baseurl }}/papers/2610.08900/)
 
 ---
 
@@ -248,6 +258,16 @@ Gene set analysis is a cornerstone of functional genomics, yet it remains labor-
 
 ---
 
+## [YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents]({{ site.baseurl }}/papers/2610.01097/)
+
+**2026-10-01** · Yoonkyu Woo et al. 
+
+End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. This gap is structural: research state, failure histories, and claim-evidence alignment are not maintained as persistent, verifiable state across long-horizon pipelin...
+
+[Read more →]({{ site.baseurl }}/papers/2610.01097/)
+
+---
+
 ## [Can AI Scientists Coordinate at Runtime?]({{ site.baseurl }}/papers/2610.00980/)
 
 **2026-10-01** · Zijian Liu et al. 
@@ -265,16 +285,6 @@ Multi-agent AI scientists have shown improving performance across a diverse rang
 We introduce Gacha Decoding, an inference-time method for eliciting diverse language model generations that scales with model capability. Across open-ended domains (in-the-wild chat, creative writing, planning for image generation, and protein design), Gacha Decoding significantly outperforms existi...
 
 [Read more →]({{ site.baseurl }}/papers/2610.01382/)
-
----
-
-## [YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents]({{ site.baseurl }}/papers/2610.01097/)
-
-**2026-10-01** · Yoonkyu Woo et al. 
-
-End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. This gap is structural: research state, failure histories, and claim-evidence alignment are not maintained as persistent, verifiable state across long-horizon pipelin...
-
-[Read more →]({{ site.baseurl }}/papers/2610.01097/)
 
 ---
 
@@ -298,16 +308,6 @@ Large language models rely heavily on human text, which often conveys surface an
 
 ---
 
-## [Drug-Target Interaction Prediction via Hierarchical Sequential Cross-Attention over Chemical and Protein Language Models]({{ site.baseurl }}/papers/2609.34921/)
-
-**2026-09-28** · Khadidja Henni et al. 
-
-Predicting Drug-Target Interactions~(DTIs) is a central task in computational drug discovery, with direct applications in virtual screening, drug repurposing, and therapeutic candidate prioritization. Although recent deep learning methods have improved DTI prediction, many sequence-based models stil...
-
-[Read more →]({{ site.baseurl }}/papers/2609.34921/)
-
----
-
 ## [One Sequence, Many Decodings: CAGenMol-2 Recasts Drug Design as Masked Molecular Inference]({{ site.baseurl }}/papers/2609.34301/)
 
 **2026-09-28** · Yanting Li et al. 
@@ -315,6 +315,16 @@ Predicting Drug-Target Interactions~(DTIs) is a central task in computational dr
 Drug design couples property evaluation, conditional generation, structure-based design, and local optimization, yet machine learning systems typically address these capabilities with separate task-specific models. We introduce CAGenMol-2, a masked diffusion molecular language model that represents ...
 
 [Read more →]({{ site.baseurl }}/papers/2609.34301/)
+
+---
+
+## [Drug-Target Interaction Prediction via Hierarchical Sequential Cross-Attention over Chemical and Protein Language Models]({{ site.baseurl }}/papers/2609.34921/)
+
+**2026-09-28** · Khadidja Henni et al. 
+
+Predicting Drug-Target Interactions~(DTIs) is a central task in computational drug discovery, with direct applications in virtual screening, drug repurposing, and therapeutic candidate prioritization. Although recent deep learning methods have improved DTI prediction, many sequence-based models stil...
+
+[Read more →]({{ site.baseurl }}/papers/2609.34921/)
 
 ---
 
@@ -438,16 +448,6 @@ Chemistry, Manufacturing and Controls (CMC) process development generates an eno
 
 ---
 
-## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
-
-**2026-09-07** · Xiaotang Feng et al. 
-
-Closed-loop AI scientists can generate candidate designs at low marginal computational cost, whereas reliable feedback may require wet-lab synthesis, characterization, or high-fidelity computation. Addressing this imbalance through custom laboratory automation remains infrastructure-intensive and co...
-
-[Read more →]({{ site.baseurl }}/papers/2609.07655/)
-
----
-
 ## [AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era]({{ site.baseurl }}/papers/2609.07611/)
 
 **2026-09-07** · Yunxiang Mo et al. 
@@ -458,13 +458,13 @@ Scientific ideation is the capacity to formulate novel and testable hypotheses f
 
 ---
 
-## [OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows]({{ site.baseurl }}/papers/2609.09203/)
+## [Online Surrogate Repair: Decoupling High-Fidelity Feedback from Search Length in Closed-Loop Discovery]({{ site.baseurl }}/papers/2609.07655/)
 
-**2026-09-05** · Aayam Bansal et al. 
+**2026-09-07** · Xiaotang Feng et al. 
 
-Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic r...
+Closed-loop AI scientists can generate candidate designs at low marginal computational cost, whereas reliable feedback may require wet-lab synthesis, characterization, or high-fidelity computation. Addressing this imbalance through custom laboratory automation remains infrastructure-intensive and co...
 
-[Read more →]({{ site.baseurl }}/papers/2609.09203/)
+[Read more →]({{ site.baseurl }}/papers/2609.07655/)
 
 ---
 
@@ -475,6 +475,16 @@ Existing benchmarks for autonomous AI scientists evaluate only final outputs---g
 We introduce ABLE, a benchmark for evaluating LLM agents' ability to use biological AI models (BAIMs), such as ProteinMPNN and AlphaFold3, in dual-use protein design workflows. ABLE assesses agent performance through a set of tasks spanning structure retrieval, sequence generation, and design valida...
 
 [Read more →]({{ site.baseurl }}/papers/2609.05818/)
+
+---
+
+## [OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows]({{ site.baseurl }}/papers/2609.09203/)
+
+**2026-09-05** · Aayam Bansal et al. 
+
+Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic r...
+
+[Read more →]({{ site.baseurl }}/papers/2609.09203/)
 
 ---
 
@@ -508,16 +518,6 @@ Protein inverse folding aims to recover amino acid sequences for a given 3D prot
 
 ---
 
-## [CoMPASS: Collaborative Molecular Property Prediction via Adaptive Small-Large Model Synergy]({{ site.baseurl }}/papers/2608.30674/)
-
-**2026-08-31** · Wentao Li et al. 
-
-Accurate molecular property prediction requires both statistical reliability and chemical reasoning. Graph neural networks can be calibrated directly on labeled assays but remain limited by the coverage of their training data. Large language models (LLMs) can compare molecular evidence and articulat...
-
-[Read more →]({{ site.baseurl }}/papers/2608.30674/)
-
----
-
 ## [Science sandboxes measure the scientific capability of AI agents]({{ site.baseurl }}/papers/2608.30165/)
 
 **2026-08-31** · Arya S. Rao et al. 
@@ -525,6 +525,16 @@ Accurate molecular property prediction requires both statistical reliability and
 Scientific progress depends not only on finding solutions, but on learning the rules that explain why they work and using that understanding to design better experiments. We introduce science sandboxes, a framework for studying this capability in AI agents through repeated cycles of experimentation,...
 
 [Read more →]({{ site.baseurl }}/papers/2608.30165/)
+
+---
+
+## [CoMPASS: Collaborative Molecular Property Prediction via Adaptive Small-Large Model Synergy]({{ site.baseurl }}/papers/2608.30674/)
+
+**2026-08-31** · Wentao Li et al. 
+
+Accurate molecular property prediction requires both statistical reliability and chemical reasoning. Graph neural networks can be calibrated directly on labeled assays but remain limited by the coverage of their training data. Large language models (LLMs) can compare molecular evidence and articulat...
+
+[Read more →]({{ site.baseurl }}/papers/2608.30674/)
 
 ---
 
